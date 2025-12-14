@@ -17,14 +17,14 @@ export default defineConfig({
     root: {
       label: '中文',
       lang: 'zh-CN',
-      description: '锐界幻境 全方位的指南'
+      description: '锐界幻境 全方位的指南',
     }
   },
   
   // 头部配置
   head: [
     ['link', { rel: 'icon', href: '/title_img/dis.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/title_img/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/title_img/B-LOGO.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/title_img/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/title_img/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/title_img/site.webmanifest' }],
@@ -110,13 +110,31 @@ export default defineConfig({
     search: {
       provider: 'local',// algolia
       options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        },
         detailedView: true,
         miniSearch: {
           searchOptions: {
             fuzzy: true,
             prefix: true,
             boost: { title: 2, content: 1 }
-          }
+          },
         }
       }
     },
@@ -299,26 +317,6 @@ export default defineConfig({
         ariaLabel: 'B站主页'
       }
     ],
-    
-    // 页脚配置
-    footer: {
-      copyright: `
-        <div style="margin: 8px 0;">
-          2020 - ${new Date().getFullYear()} MiragEdge✰锐界幻境 By F.windEmiko
-        </div>
-        <div style="margin: 8px 0;">
-          <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer" style="color: var(--vp-c-text-2); text-decoration: none;">
-            苏ICP备2024133820号-1
-          </a>
-           | 
-          <a href="https://www.rainyun.com/FwindEmi_" target="_blank" rel="noopener noreferrer" style="color: var(--vp-c-brand); text-decoration: none;">
-            雨云
-          </a> 
-          提供计算服务
-          
-        </div>
-      `
-    },
     
     // 最后更新时间
     lastUpdated: {
