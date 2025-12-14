@@ -24,8 +24,8 @@ export default defineConfig({
   // 头部配置
   head: [
     ['link', { rel: 'icon', href: '/title_img/dis.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/title_img/B-LOGO.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/title_img/favicon-16x16.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/title_img/LOGO-32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/title_img/LOGO-16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/title_img/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/title_img/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
