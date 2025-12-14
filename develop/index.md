@@ -42,6 +42,9 @@ const coreMembers = [
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3095328344&site=qq&menu=yes" target="_blank'}
     ],
   },
+]
+
+const partners = [
   {
     avatar: '/images/member/星跃.jpg',
     name: '阡雪星跃F',
@@ -60,18 +63,6 @@ const coreMembers = [
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3518164690&site=qq&menu=yes" target="_blank'}
     ],
   },
-]
-
-const partners = [
-  {
-    avatar: '/images/member/Zelova.png',
-    name: '幻辰汐Zelova',
-    title: '无敌在线王，曾经测出了很多BUG？',
-    links: [
-      { icon: 'bilibili', link: 'https://space.bilibili.com/523518473' },
-      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1415785556&site=qq&menu=yes" target="_blank'}
-    ],
-  },
   {
     avatar: '/images/member/炎寒.jpg',
     name: '炎寒fabler',
@@ -79,6 +70,15 @@ const partners = [
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/1891009014' },
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1732920162&site=qq&menu=yes" target="_blank'}
+    ],
+  },
+  {
+    avatar: '/images/member/Zelova.png',
+    name: '幻辰汐Zelova',
+    title: '无敌在线王，曾经测出了很多BUG？',
+    links: [
+      { icon: 'bilibili', link: 'https://space.bilibili.com/523518473' },
+      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1415785556&site=qq&menu=yes" target="_blank'}
     ],
   },
 ]
