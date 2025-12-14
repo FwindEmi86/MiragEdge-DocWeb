@@ -70,7 +70,7 @@ export default defineConfig({
     },
     // 构建优化
     build: {
-      chunkSizeWarningLimit: 1000, // 提高 chunk 大小警告限制
+      chunkSizeWarningLimit: 2000, // 提高 chunk 大小警告限制
       sourcemap: false, // 生产环境关闭 sourcemap
       minify: 'esbuild',
       rollupOptions: {
@@ -285,6 +285,7 @@ export default defineConfig({
               collapsed: false, 
               items: [
                 { text: '💰 等价交换商店', link: '/develop/mc_plugins/emcshop' },
+                { text: '🛩️ 幻空翼飞行', link: '/develop/mc_plugins/fe_fly' },
               ]
             },
           ]
