@@ -82,73 +82,18 @@
 </style>
 
 <div class="feature-cards">
-  <a href="/features/chat" class="feature-card chat-card">
+  <a href="/features/enchantments" class="feature-card chat-card">
     <div class="feature-card-content">
-      <h3>💬 聊天系统</h3>
-      <p>聊天系统是麦麦的核心，这个系统能够在群聊中把握合适的发言时机，模仿人类的发言规律。由于不同群聊环境不同，你可能需要针对自己的需要，进行自己的配置。</p>
+      <h3>💬 高级附魔系统</h3>
+      <p>待编写。</p>
     </div>
   </a>
 </div>
 
-<div class="feature-cards">
-  <a href="/features/personality" class="feature-card personality-card">
-    <div class="feature-card-content">
-      <h3>🎭 个性</h3>
-      <p>麦麦提供了多个配置项来为每个你自己的麦麦定义不同的人格，性格，身份和说话风格。这些配置会在不同的地方发挥作用，不过我们不推荐太长的个性设置。</p>
-    </div>
-  </a>
-</div>
-
-<div class="feature-cards">
-  <a href="/features/expression" class="feature-card expression-card">
-    <div class="feature-card-content">
-      <h3>🗣️ 表达方式</h3>
-      <p>表达方式是麦麦特有的拟人功能，可以让麦麦学习特定群的说话风格，学习群聊中的言语方式和流行的梗。如果你想要配置在哪些群可以学习或使用，可以参见详细说明。</p>
-    </div>
-  </a>
-</div>
-
-<div class="feature-cards">
-  <a href="/features/memory_retrieval" class="feature-card memory-card">
-    <div class="feature-card-content">
-      <h3>🧠 记忆检索</h3>
-      <p>记忆检索系统会在回复前主动搜索聊天历史、黑话和知识库，确保发言与过去经历保持一致。了解如何配置检索迭代、工具与缓存策略。</p>
-    </div>
-  </a>
-</div>
-
-<div class="feature-cards">
-  <a href="/features/jargon" class="feature-card jargon-card">
-    <div class="feature-card-content">
-      <h3>🌀 黑话系统</h3>
-      <p>黑话系统可以自动提取群里的俚语、自创梗并推断含义，供记忆检索和回复器随时引用。支持全局共享或按群隔离。</p>
-    </div>
-  </a>
-</div>
-
-<div class="feature-cards">
-  <a href="/manual/configuration/lpmm" class="feature-card lpmm-card">
-    <div class="feature-card-content">
-      <h3>📚 LPMM知识库</h3>
-      <p>麦麦使用了LPMM作为知识库系统，可以进行知识的学习，并在合适的场景下调用并理解。LPMM性能卓越，但是知识的学习需要花费一些API额度。</p>
-    </div>
-  </a>
-</div>
-
-<div class="feature-cards">
-  <a href="/features/emoji" class="feature-card emoji-card">
-    <div class="feature-card-content">
-      <h3>😄 表情包系统</h3>
-      <p>麦麦可以在QQ群聊中自由的偷取和使用表情包，对表情包进行理解。如果你想要配置表情包偷取频率，或者想要手动修改表情包，请阅读详细说明。</p>
-    </div>
-  </a>
-</div>
 
 ## 常见问题解答
 
 有关常见问题的详细解答，请参考[常见问题](/manual/faq/)页面，其中包含：
 
-- API 相关问题
-- 部署故障排除
 - 功能使用疑问
 
