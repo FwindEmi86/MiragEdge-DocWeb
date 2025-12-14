@@ -1,8 +1,3 @@
----
-sidebar_position: 7
-slug: /docs/gameplay/food
-title: 🍔 更多食物
----
 
 import FoodCard from '@site/src/components/FoodCard';
 

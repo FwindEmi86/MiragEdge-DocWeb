@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-slug: /docs/gameplay/AdvancedEnchantments/info
-title: 📕 高级附魔
----
 
 > ✨ **你是否厌倦了原版千篇一律的附魔？**  
 > **我们添加了更多高级附魔内容！**

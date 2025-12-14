@@ -1,0 +1,13 @@
+[Unit]
+Description=Docusaurus Web Service
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/www/MiragEdge/web/
+ExecStart=/usr/bin/npm run serve
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

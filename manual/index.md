@@ -237,7 +237,7 @@
 
 ### 其他
 
-[玩家协议](/manual/eula)
+[玩家协议](/manual/eula/index.md)
 
 :::info 提示
   none

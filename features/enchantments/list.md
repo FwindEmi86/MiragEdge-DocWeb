@@ -1,9 +1,3 @@
----
-sidebar_position: 3
-slug: /docs/gameplay/AdvancedEnchantments/list
-title: 附魔列表
-
----
 
 #### **^_^善用F3搜索~**
   - 狐风轩汐 编写

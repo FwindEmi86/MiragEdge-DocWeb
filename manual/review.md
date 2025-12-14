@@ -33,7 +33,7 @@ title: 玩家审核
   </thead>
   <tbody>
     <tr>
-      <td className="type-optimize">遵守<a href="http://miragedge.top/docs/ServerRule" target="_blank">社区规则</a>如同守护誓言</td>
+      <td className="type-optimize">遵守<a href="http://miragedge.top/manual/eula/index.md" target="_blank">社区规则</a>如同守护誓言</td>
       <td className="type-quality">言语粗鄙如未打磨的原石</td>
     </tr>
       <td className="type-optimize">在创造中找寻生命的热度</td>
