@@ -54,3 +54,6 @@ echo " "
 
 echo " "
 #echo "服务重启完成！文档网站服务现在运行在后台。"
+
+
+#docker run -d --name docweb-nginx -p 5173:80 -v /www/MiragEdge/MiragEdge-DocWeb/.vitepress/dist/:/app --restart=always doc_nginx:main
