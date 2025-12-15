@@ -156,7 +156,7 @@ export default defineConfig({
       },
       { 
         text: '📚 玩家手册', 
-        link: '/manual/',
+        link: '/manual/review',
         activeMatch: '^/manual/'
       },
       { 
