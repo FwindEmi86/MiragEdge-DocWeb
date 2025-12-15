@@ -28,7 +28,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={6.4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/bacon.png"
+  image="/images/resourcepack/items_skin/food/hecheng/bacon.png"
   special="treetree的炸培根"
 />
 
@@ -39,7 +39,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={6}
   saturation={1.2}
   source="合成"
-  image="/images/resourcepack/food/hecheng/beer.png"
+  image="/images/resourcepack/items_skin/food/hecheng/beer.png"
   special="小麦果汁！有很强的饱腹感，喝多会醉，饮用后获得8秒饱和效果，一分钟内饮用超过3次将随机打乱物品栏"
 />
 
@@ -50,7 +50,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={6}
   saturation={1.2}
   source="合成"
-  image="/images/resourcepack/food/hecheng/bubble_tea.png"
+  image="/images/resourcepack/items_skin/food/hecheng/bubble_tea.png"
   special="这珍珠...怪怪的？饮用后获得5秒的生命恢复效果，并小范围随机传送"
 />
 
@@ -61,7 +61,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={10}
   saturation={12}
   source="合成"
-  image="/images/resourcepack/food/hecheng/double_bread.png"
+  image="/images/resourcepack/items_skin/food/hecheng/double_bread.png"
   special="面包pro max版本"
 />
 
@@ -72,7 +72,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={8}
   saturation={4.8}
   source="合成"
-  image="/images/resourcepack/food/hecheng/pie.png"
+  image="/images/resourcepack/items_skin/food/hecheng/pie.png"
   special="一个蛋糕青春版？"
 />
 
@@ -83,7 +83,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={3}
   saturation={4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/cheese.png"
+  image="/images/resourcepack/items_skin/food/hecheng/cheese.png"
   special="没错，杰瑞最喜欢这个了"
 />
 
@@ -94,7 +94,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={3}
   source="合成"
-  image="/images/resourcepack/food/hecheng/candy_floss.png"
+  image="/images/resourcepack/items_skin/food/hecheng/candy_floss.png"
   special="锐界幻境的云是它组成的？食用后可获得30秒缓降"
 />
 
@@ -105,7 +105,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/strawberry_donuts.png"
+  image="/images/resourcepack/items_skin/food/hecheng/strawberry_donuts.png"
   special="香香软软的，但是一口吃掉好像太腻了.... 食用后获得5秒生命恢复，3秒反胃"
 />
 
@@ -116,7 +116,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={9}
   saturation={13}
   source="合成"
-  image="/images/resourcepack/food/hecheng/big_ham.png"
+  image="/images/resourcepack/items_skin/food/hecheng/big_ham.png"
   special="看起来好像一把棒槌....打人很痛的样子 食用后获得20秒力量2效果，15秒健康效果，在30秒内获得2倍暴击伤害"
 />
 
@@ -127,7 +127,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={3}
   source="合成"
-  image="/images/resourcepack/food/hecheng/sauerkraut_meat_film.png"
+  image="/images/resourcepack/items_skin/food/hecheng/sauerkraut_meat_film.png"
   special="超好吃的肉夹馍!!! 吃完整个锐界幻境都能变得超级好吃！！！食用后获得40秒速度I，40秒急迫，25秒健康"
 />
 
@@ -138,7 +138,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={18}
   saturation={12}
   source="合成"
-  image="/images/resourcepack/food/hecheng/Honey_claypots.png"
+  image="/images/resourcepack/items_skin/food/hecheng/Honey_claypots.png"
   special="盆里面装着满满当当的蜂蜜，和我们的腐竹一样甜美诱人，但是吃完会得糖尿病 食用后获得30秒生命恢复，1分钟急迫，15秒失明"
 />
 
@@ -149,7 +149,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={8}
   saturation={12.6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/hotdog.png"
+  image="/images/resourcepack/items_skin/food/hecheng/hotdog.png"
   special="经典风味，食用后获得10秒速度，6秒生命恢复"
 />
 
@@ -160,7 +160,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/dandelion_salad.png"
+  image="/images/resourcepack/items_skin/food/hecheng/dandelion_salad.png"
   special="其实...幻境里也有些是不那么好吃的，但是蒲公英好像可以治愈一些疾病？食用后获得5秒反胃，5秒生命恢复II，40秒抗性提升，60秒健康"
 />
 
@@ -171,7 +171,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={6}
   saturation={7.2}
   source="合成"
-  image="/images/resourcepack/food/hecheng/berry_salad.png"
+  image="/images/resourcepack/items_skin/food/hecheng/berry_salad.png"
   special="幻境森林中的特产，美味无需多盐，狐狸好像挺喜欢吃的嘛？食用后获得30秒健康，30秒内提升0.5倍背刺伤害"
 />
 
@@ -182,7 +182,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={12}
   saturation={22}
   source="合成"
-  image="/images/resourcepack/food/hecheng/beef_stew.png"
+  image="/images/resourcepack/items_skin/food/hecheng/beef_stew.png"
   special="荤素搭配，健康美味，食用后获得2分钟温暖效果，30秒健康效果，15秒生命恢复，20秒饱和"
 />
 
@@ -193,7 +193,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/seagrass_salad.png"
+  image="/images/resourcepack/items_skin/food/hecheng/seagrass_salad.png"
   special="好吧，看起来只是一堆草...但是应该可以吃吧..."
 />
 
@@ -204,7 +204,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/ocean_medley.png"
+  image="/images/resourcepack/items_skin/food/hecheng/ocean_medley.png"
   special="看起来很健康，其实不然...食用后获得45秒潮涌能量，15秒虫蚀，30秒海豚恩惠"
 />
 
@@ -215,7 +215,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/cave_medley.png"
+  image="/images/resourcepack/items_skin/food/hecheng/cave_medley.png"
   special="幻境洞穴风味  食用后获得45秒夜视，30秒急迫"
 />
 
@@ -226,7 +226,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={0}
   source="合成"
-  image="/images/resourcepack/food/hecheng/chorus_candy.png"
+  image="/images/resourcepack/items_skin/food/hecheng/chorus_candy.png"
   special="保留了一部分原有的味道，是故意的  食用后会随机传送"
 />
 
@@ -237,7 +237,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={3}
   saturation={0}
   source="合成"
-  image="/images/resourcepack/food/hecheng/carrot_candy.png"
+  image="/images/resourcepack/items_skin/food/hecheng/carrot_candy.png"
   special="这是兔兔最爱的糖果！！！"
 />
 
@@ -248,7 +248,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={1}
   saturation={0}
   source="合成"
-  image="/images/resourcepack/food/hecheng/potato_candy.png"
+  image="/images/resourcepack/items_skin/food/hecheng/potato_candy.png"
   special="好吧其实我也不知道土豆是什么味道，反正就是有"
 />
 
@@ -259,7 +259,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={2}
   saturation={0}
   source="合成"
-  image="/images/resourcepack/food/hecheng/grass_candy.png"
+  image="/images/resourcepack/items_skin/food/hecheng/grass_candy.png"
   special="“干”草糖"
 />
 
@@ -270,7 +270,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={2}
   saturation={0}
   source="合成"
-  image="/images/resourcepack/food/hecheng/crimson_candy.png"
+  image="/images/resourcepack/items_skin/food/hecheng/crimson_candy.png"
   special="下界风味糖果"
 />
 
@@ -281,7 +281,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={2}
   saturation={0}
   source="合成"
-  image="/images/resourcepack/food/hecheng/warped_candy.png"
+  image="/images/resourcepack/items_skin/food/hecheng/warped_candy.png"
   special="不！好！吃！  食用后附近的疣猪兽将获得30秒虚弱2效果"
 />
 
@@ -292,7 +292,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={5}
   source="合成"
-  image="/images/resourcepack/food/hecheng/strawberry_ice_cream.png"
+  image="/images/resourcepack/items_skin/food/hecheng/strawberry_ice_cream.png"
   special="冰冰凉凉香香甜甜思思滑滑甜甜蜜蜜飒飒爽爽的美味冰淇淋！！！ 食用后获得25秒抗火"
 />
 
@@ -303,7 +303,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={8}
   saturation={6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/strawberry_chocolate_ice_cream.png"
+  image="/images/resourcepack/items_skin/food/hecheng/strawberry_chocolate_ice_cream.png"
   special="香香脆脆冰冰凉凉甜甜蜜蜜香香甜甜的巧克力草莓味冰淇淋！！你感到周围都凉快了起来 食用后获得15秒速度2，对周围生物施加15秒寒冷"
 />
 
@@ -314,7 +314,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={10}
   saturation={12.6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/pizza.png"
+  image="/images/resourcepack/items_skin/food/hecheng/pizza.png"
   special="锐界幻境田园风味披萨，长的像狐狸耳朵，吃了会不会变成狐狸？食用后获得30秒健康"
 />
 
@@ -325,7 +325,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={8}
   saturation={8}
   source="合成"
-  image="/images/resourcepack/food/hecheng/cream_cupcakes.png"
+  image="/images/resourcepack/items_skin/food/hecheng/cream_cupcakes.png"
   special="小时候挺爱吃的，随着长大好像只能在锐界幻境吃到了...你好像回到了童年 食用后获得15秒饱和，30秒抗性提升，提升冲刺速度"
 />
 
@@ -336,7 +336,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={2}
   saturation={1}
   source="合成"
-  image="/images/resourcepack/food/hecheng/tofu.png"
+  image="/images/resourcepack/items_skin/food/hecheng/tofu.png"
   special="想吃锐界幻境腐竹的豆腐欸嘿嘿...."
 />
 
@@ -347,7 +347,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={3}
   source="合成"
-  image="/images/resourcepack/food/hecheng/stinky_tofu.png"
+  image="/images/resourcepack/items_skin/food/hecheng/stinky_tofu.png"
   special="好臭！！虽然吃着香，但是请不要在公共场合食用！食用后周围实体获得10秒虚弱，10秒缓慢，5秒反胃"
 />
 
@@ -358,7 +358,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/tacos.png"
+  image="/images/resourcepack/items_skin/food/hecheng/tacos.png"
   special="歪比歪比，歪比叭卜！食用后在周围生成几只僵尸"
 />
 
@@ -369,7 +369,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={6}
   saturation={12}
   source="合成"
-  image="/images/resourcepack/food/hecheng/popcorn.png"
+  image="/images/resourcepack/items_skin/food/hecheng/popcorn.png"
   special="金灿灿的像金子一样！闻起来也像金子一样！吃起来也像金子一样！"
 />
 
@@ -380,7 +380,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={2}
   source="合成"
-  image="/images/resourcepack/food/hecheng/cut_cactus.png"
+  image="/images/resourcepack/items_skin/food/hecheng/cut_cactus.png"
   special="锐界幻境沙漠风味，切开的香气使周围的骆驼充满干劲，但其实对于人类来说不好吃.... 食用后获得5秒反胃，周围的骆驼获得20秒生命恢复"
 />
 
@@ -391,7 +391,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={3}
   source="合成"
-  image="/images/resourcepack/food/hecheng/zongzi.png"
+  image="/images/resourcepack/items_skin/food/hecheng/zongzi.png"
   special="锐界幻境黏糊糊端午风味，感觉像吃下了一整个端午！食用后获得3秒跳跃提升，5秒生命恢复"
 />
 
@@ -402,7 +402,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/sushi.png"
+  image="/images/resourcepack/items_skin/food/hecheng/sushi.png"
   special="锐界幻境和风风味，你感受到了大海在被包裹在米饭里面的香味"
 />
 
@@ -413,7 +413,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={12.6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/beggars_style_chicken.png"
+  image="/images/resourcepack/items_skin/food/hecheng/beggars_style_chicken.png"
   special="一只鲜嫩的鸡被散发清香的荷叶包裹，闻起来奇香无比，周围的动物也因此放松"
 />
 
@@ -424,7 +424,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={2}
   source="合成"
-  image="/images/resourcepack/food/hecheng/creeper_cookie.png"
+  image="/images/resourcepack/items_skin/food/hecheng/creeper_cookie.png"
   special="浓浓的火药味...食用后会发生小型爆炸（不会破坏方块）"
 />
 
@@ -435,7 +435,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={7}
   saturation={4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/lollipop.png"
+  image="/images/resourcepack/items_skin/food/hecheng/lollipop.png"
   special="小时候总会含在嘴里慢慢融化细细品味，食用后获得30秒抗性提升"
 />
 
@@ -446,7 +446,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={14}
   saturation={16}
   source="合成"
-  image="/images/resourcepack/food/hecheng/hamburger.png"
+  image="/images/resourcepack/items_skin/food/hecheng/hamburger.png"
   special="锐界幻境星期四风味，比肯德基更健康！食用后获得15秒饱和，30秒健康"
 />
 
@@ -457,7 +457,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={8}
   saturation={12.6}
   source="合成"
-  image="/images/resourcepack/food/hecheng/lava_chicken.png"
+  image="/images/resourcepack/items_skin/food/hecheng/lava_chicken.png"
   special="火热的岩浆🔥🔥🔥美味的鸡肉🤤🤤🤤史蒂夫的熔岩烤鸡😍😍😍食用后获得30秒抗火，30秒自发光，25秒熔岩行走"
 />
 
@@ -468,7 +468,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={9}
   saturation={10}
   source="合成"
-  image="/images/resourcepack/food/hecheng/fish_soup.png"
+  image="/images/resourcepack/items_skin/food/hecheng/fish_soup.png"
   special="美味的鱼肉❤️❤️❤️健康的萝卜😍😍😍狐狸的美味鱼汤🤤🤤🤤食用后获得30秒健康"
 />
 
@@ -479,7 +479,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={12}
   saturation={15}
   source="合成"
-  image="/images/resourcepack/food/hecheng/sculk_medley.png"
+  image="/images/resourcepack/items_skin/food/hecheng/sculk_medley.png"
   special="锐界幻境幽匿风味，虽然不好吃但是就是很想吃...食用后获得10秒饱和，5秒反胃"
 />
 
@@ -490,7 +490,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={3}
   saturation={4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/sweet_berries_cupcake.png"
+  image="/images/resourcepack/items_skin/food/hecheng/sweet_berries_cupcake.png"
   special="锐界幻境童年风味，食用后获得5秒抗性提升"
 />
 
@@ -501,7 +501,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={3}
   saturation={4}
   source="合成"
-  image="/images/resourcepack/food/hecheng/glow_berries_cupcake.png"
+  image="/images/resourcepack/items_skin/food/hecheng/glow_berries_cupcake.png"
   special="锐界幻境童年风味，食用后获得5秒抗性提升，10秒自发光"
 />
 
@@ -512,7 +512,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={0}
   saturation={1145141919810}
   source="合成"
-  image="/images/resourcepack/food/hecheng/colorful_egg_custard.png"
+  image="/images/resourcepack/items_skin/food/hecheng/colorful_egg_custard.png"
   special="这...未免太奢侈了些？但是看起来味道很好的样子！食用后获得10分钟抗性提升5，5分钟速度2，5分钟生命恢复2，10分钟生命提升5..."
 />
 
@@ -523,7 +523,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={5}
   saturation={2}
   source="合成"
-  image="/images/resourcepack/food/strawberry_jam.png"
+  image="/images/resourcepack/items_skin/food/strawberry_jam.png"
   special="还没写完整的合成表嘤嘤嘤，先用 草莓×2，糖×1，玻璃瓶×1"
 />
 
@@ -536,7 +536,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={2}
   saturation={1}
   source="熔炉"
-  image="/images/resourcepack/food/hecheng/fried_turtle_egg.png"
+  image="/images/resourcepack/items_skin/food/hecheng/fried_turtle_egg.png"
   special="好吃但是不建议吃，这..."
 />
 
@@ -547,7 +547,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={6}
   saturation={3}
   source="熔炉"
-  image="/images/resourcepack/food/hecheng/fried_sniffer_egg.png"
+  image="/images/resourcepack/items_skin/food/hecheng/fried_sniffer_egg.png"
   special="来自远古的味道...唇齿留香，食用后获得30秒健康，1分钟抗性提升"
 />
 
@@ -558,7 +558,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={0}
   saturation={114514}
   source="熔炉"
-  image="/images/resourcepack/food/hecheng/fried_dragon_egg.png"
+  image="/images/resourcepack/items_skin/food/hecheng/fried_dragon_egg.png"
   special="奢侈中的奢侈，真的可以吃得起吗....食用后获得30分钟抗性提升2，30分钟生命恢复1，30分钟伤害吸收5"
 />
 
@@ -569,7 +569,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={9}
   saturation={4.8}
   source="熔炉"
-  image="/images/resourcepack/food/hecheng/roasted_pumpkin.png"
+  image="/images/resourcepack/items_skin/food/hecheng/roasted_pumpkin.png"
   special="锐界幻境烧烤风味，健康美味"
 />
 
@@ -580,7 +580,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={6}
   saturation={7}
   source="熔炉"
-  image="/images/resourcepack/food/hecheng/toast.png"
+  image="/images/resourcepack/items_skin/food/hecheng/toast.png"
   special="锐界幻境早餐风味，搭配培根煎蛋食用更佳！食用后获得10秒生命恢复"
 />
 
@@ -591,7 +591,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={3}
   saturation={2}
   source="熔炉"
-  image="/images/resourcepack/food/hecheng/fried_egg.png"
+  image="/images/resourcepack/items_skin/food/hecheng/fried_egg.png"
   special="早餐搭档，简单好吃"
 />
 
@@ -604,7 +604,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={3}
   source="其他"
-  image="/images/resourcepack/food/coca_cola.png"
+  image="/images/resourcepack/items_skin/food/coca_cola.png"
   special="气泡水"
 />
 
@@ -615,7 +615,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={3}
   source="其他"
-  image="/images/resourcepack/food/pepsi_cola.png"
+  image="/images/resourcepack/items_skin/food/pepsi_cola.png"
   special="气泡水"
 />
 
@@ -626,7 +626,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={3}
   source="其他"
-  image="/images/resourcepack/food/sprite.png"
+  image="/images/resourcepack/items_skin/food/sprite.png"
   special="气泡水"
 />
 
@@ -637,7 +637,7 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={4}
   saturation={3}
   source="其他"
-  image="/images/resourcepack/food/fanta.png"
+  image="/images/resourcepack/items_skin/food/fanta.png"
   special="气泡水"
 />
 
@@ -648,6 +648,6 @@ import FoodCard from '@site/src/components/FoodCard';
   hunger={2}
   saturation={0}
   source="其他"
-  image="/images/resourcepack/food/strawberry.png"
+  image="/images/resourcepack/items_skin/food/strawberry.png"
   special="草莓"
 />

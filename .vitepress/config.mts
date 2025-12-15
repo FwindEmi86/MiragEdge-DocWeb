@@ -209,7 +209,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '介绍', link: '/features/enchantments' },
-            { text: '物品列表', link: '/features/enchantments/items' },
+            { text: '品质等级', link: '/features/enchantments/rarity' },
+            { text: '功能分类', link: '/features/enchantments/group' },
             { text: '附魔列表', link: '/features/enchantments/list' },
           ]
         },
@@ -230,40 +231,34 @@ export default defineConfig({
       ],
  
       '/manual/': [
-        { 
-          text: '✅ 玩家审核', 
-          link: '/manual/review' 
-        },
         {
           text: '📌 必看指南',
           collapsed: false,
           items: [
-            { text: '🔗 入服方法 & 链接介绍', link: '/manual/tutorial/serverjoin' },
+            { text: '✅ 玩家审核', link: '/manual/review' },
+            { text: '⚖️ 玩家守则', link: '/manual/eula/' },
+            { text: '🔗 入服方法', link: '/manual/tutorial/serverjoin' },
             { text: '💾 白名单系统', link: '/manual/tutorial/whitelist' },
             { text: '🔌 客户端安装', link: '/manual/tutorial/clientinstall' },
             { text: '🎮 核心玩法目标', link: '/manual/tutorial/gameplay' },
           ]
         },
         {
-          text: '⚖️ 玩家守则',
+          text: '❓ 常见问题',
+          link: '/manual/faq/'
+        },
+        {
+          text: '🔧 常用功能教程',
           collapsed: false,
           items: [
-            { text: '📜 服务器守则', link: '/manual/eula/' },
+            { text: '🐧 群服互通机器人', link: '/manual/function/qqbot' },
+            { text: '💰 经济系统', link: '/manual/function/economy' },
+            { text: '🏠 玩家工会', link: '/manual/function/playerguild' },
           ]
         },
         {
-          text: '❓ 常见问题',
-          collapsed: true,
-          items: [
-            { text: 'FAQ 概览', link: '/manual/faq/' },
-          ]
-        },
-        {
-          text: '📎 参考',
-          collapsed: true,
-          items: [
-            { text: '💬 QQ 群', link: '/manual/qq_group' },
-          ]
+          text: '💬 QQ 群组',
+          link: '/manual/qq_group'
         }
       ],
  
@@ -295,10 +290,11 @@ export default defineConfig({
           link: '/develop/logs' 
         },
         {
-          text: '🔗 参考',
+          text: '🔗 关于',
           collapsed: true,
           items: [
             { text: '概述', link: '/develop/' },
+            { text: '旧文档', link: 'https://doc.miragedge.top' },
           ]
         }
       ]
