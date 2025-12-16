@@ -20,6 +20,7 @@
   src="/images/features/enchantments_view.png" 
   alt="新附魔效果展示"
   caption="新附魔效果展示"
+  maxWidth="450px"
 /> 
 
 ---

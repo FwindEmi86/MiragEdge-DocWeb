@@ -16,6 +16,7 @@
   src="/images/GameQQ.png" 
   alt="服内绑定提示"
   caption="服内绑定提示"
+  maxWidth="400px"
 />
   
 **3. 群内发送绑定信息**：
@@ -25,6 +26,7 @@
   src="/images/QQLink.png" 
   alt="交流群发送绑定验证码"
   caption="交流群发送绑定验证码"
+  maxWidth="400px"
 />
 
 ## 查绑方法
@@ -42,6 +44,7 @@
   src="/images/QQUnLink.png" 
   alt="查、解绑相关指令"
   caption="查、解绑相关指令"
+  maxWidth="400px"
 />
 
 ## 更多群内机器人指令操作

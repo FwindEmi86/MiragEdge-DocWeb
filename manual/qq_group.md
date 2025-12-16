@@ -31,4 +31,5 @@
   src="/avatars/星玖躺在床上.jpg" 
   alt="这是星玖"
   caption="这是星玖"
+  maxWidth="580px"
 />

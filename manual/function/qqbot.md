@@ -2,7 +2,12 @@
 这是星玖，我其实不太喜欢叫她AI，我赋予她性格，她是我心中所想。  
 她诞生于2020年，一直是以吉祥物的身份，在我身边。  
 
-![狐魇星玖](/avatars/QQ的星玖.png)
+<SmartImage 
+  src="/avatars/QQ的星玖.png" 
+  alt="狐魇星玖"
+  caption="狐魇星玖"
+  maxWidth="400px"
+/>
 
 ---
 
@@ -15,6 +20,7 @@
   src="/images/msreg/hutongxiaoxi.png" 
   alt="消息互通"
   caption="消息互通"
+  maxWidth="400px"
 />
 
 ## 查看个人服内统计信息
@@ -27,6 +33,7 @@
   src="/images/msreg/playerlist.png" 
   alt="玩家在线列表"
   caption="玩家在线列表"
+  maxWidth="400px"
 />
 
 
@@ -39,5 +46,6 @@
   src="/images/msreg/caifubang.png" 
   alt="财富榜"
   caption="财富榜"
+  maxWidth="400px"
 />
 

@@ -105,25 +105,25 @@
 ① **游戏内注册**  
 直接通过游戏客户端完成注册流程  
 - 进入游戏，在游戏主界面点击设置  
-<SmartImage src="/images/msreg/msreg1.png" alt="注册" />
+<SmartImage src="/images/msreg/msreg1.png" alt="注册" maxWidth="400px" />
 - 点击 通用 中的 档案 部分  
-<SmartImage src="/images/msreg/msreg2.png" alt="注册" />
+<SmartImage src="/images/msreg/msreg2.png" alt="注册" maxWidth="400px" />
 - 进入档案设置后，点击【“免费”注册】  
 - 记得开启“使用移动数据”选项，可避免一些不必要的问题  
-<SmartImage src="/images/msreg/msreg3.png" alt="注册" />
+<SmartImage src="/images/msreg/msreg3.png" alt="注册" maxWidth="400px" />
 - 点击免费注册后，会弹出一个提示框（没有就忽略这一步）  
 - 选择“保存至Microsoft账户”（两个选项均可，建议选择）  
-<SmartImage src="/images/msreg/msreg4.png" alt="注册" />
+<SmartImage src="/images/msreg/msreg4.png" alt="注册" maxWidth="400px" />
 - 进入登陆界面后，点击登陆，出现以下界面，如果有账户  
 - 请直接登陆，没有账户请按提示注册  
-<SmartImage src="/images/msreg/msreg5.png" alt="注册" />
+<SmartImage src="/images/msreg/msreg5.png" alt="注册" maxWidth="400px" />
 - **注册和登陆不尽相同，此步骤忽略，请自行操作（都这么大个人了别告诉我不会注册好吧）**
 
 ② **网页注册**  
 1. 浏览器访问 [微软官网](https://account.microsoft.com/)
 2. 点击右上角头像图标
 3. 选择"创建账户"根据引导完成注册
-<SmartImage src="/images/msreg/msreg6.png" alt="注册" />
+<SmartImage src="/images/msreg/msreg6.png" alt="注册" maxWidth="400px" />
 一条龙注册（没啥好讲的）
 注册完去游戏里登陆就好
 

@@ -17,6 +17,7 @@
   src="/images/features/tag.png" 
   alt="铭牌示例"
   caption="铭牌示例"
+  maxWidth="100px"
 />
 
 ## 三、工会管理与共创原则
