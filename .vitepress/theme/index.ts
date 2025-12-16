@@ -18,6 +18,7 @@ import './style/dark.css'
 
 // 导入第三方库和组件
 import { inBrowser } from "vitepress"
+import busuanzi from "busuanzi.pure.js"
 import Confetti from "./components/vue/Confetti.vue"
 import LayoutComponent from './components/vue/layout.vue'
 import Contributors from './components/vue/Contributors.vue'
