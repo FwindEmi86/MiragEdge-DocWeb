@@ -1,0 +1,20 @@
+/* 图片组件全局样式 */
+:root {
+  --image-border-color-light: #eaecef;
+  --image-border-color-dark: #404040;
+  --image-shadow-light: rgba(0, 0, 0, 0.1);
+  --image-shadow-dark: rgba(0, 0, 0, 0.3);
+}
+
+/* Markdown中的图片使用组件样式 */
+.markdown-content img:not(.smart-image-content) {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px var(--image-shadow-light);
+  transition: transform 0.2s ease;
+}
+
+.markdown-content img:not(.smart-image-content):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px var(--image-shadow-light);
+}

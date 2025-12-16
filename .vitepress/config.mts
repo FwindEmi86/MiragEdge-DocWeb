@@ -297,6 +297,13 @@ export default defineConfig({
             },
           ]
         },
+        {
+          text: '📕 网站开发编辑',
+          collapsed: false,
+          items: [
+            { text: '🎇 自动图像组件', link: '/develop/webdev/autoimage' },
+          ]
+        },
         { 
           text: '✨ 贴图字符码', 
           link: '/develop/sticker' 

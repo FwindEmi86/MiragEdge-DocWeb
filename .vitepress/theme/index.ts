@@ -4,6 +4,8 @@
 import { h, onMounted } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import SmartImage from './components/vue/SmartImage.vue'
+import './css/custom.css'
 
 // 导入所有样式文件
 import './css/base/colors.css'
@@ -41,6 +43,7 @@ export default {
     app.component("Confetti", Confetti)
     app.component("LayoutComponent", LayoutComponent)
     app.component('Contributors', Contributors)
+    app.component('SmartImage', SmartImage)
 
     // 仅在浏览器环境下执行
     if (inBrowser) {
