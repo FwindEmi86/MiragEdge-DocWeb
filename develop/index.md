@@ -1,7 +1,15 @@
 # 开发文档中心
+  
 欢迎来到锐界幻境（MiragEdge）开发者文档平台，这里汇总了服务器开发相关的插件、规范与团队信息，助力开发者高效协作。
 
 ---
+
+<SmartImage 
+  src="/avatars/MiragEdge.png" 
+  maxWidth="600px"
+  alt="锐界幻境"
+  caption="MiragEdge ☆ 锐界幻境"
+/>
 
 <script setup>
 import {
@@ -36,7 +44,7 @@ const coreMembers = [
   {
     avatar: '/images/member/3095328344.jpg',
     name: '雯空璃雫',
-    title: '核心开发 | 技术宅',
+    title: '开发 | 技术宅',
     desc: '专注MC功能插件开发、技术难题攻坚',
     links: [
       { icon: 'github', link: 'https://github.com/3095328344' },
@@ -81,7 +89,7 @@ const partners = [
   {
     avatar: '/images/member/Zelova.png',
     name: '幻辰汐Zelova',
-    title: '测试工程师 | 玩家',
+    title: '测试 | 玩家',
     desc: '长期参与服务器测试，发现并反馈大量功能BUG，保障体验稳定性',
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/523518473' },
