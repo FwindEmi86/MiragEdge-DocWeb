@@ -259,6 +259,10 @@ export default defineConfig({
         {
           items: [
             {
+              text: '🌏 世界观故事',
+              link: '/manual/other/worldview'
+            },
+            {
               text: '❓ 常见问题',
               link: '/manual/faq'
             },
