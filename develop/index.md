@@ -81,7 +81,7 @@ const partners = [
   {
     avatar: '/images/member/Zelova.png',
     name: '幻辰汐Zelova',
-    title: '测试工程师 | 核心玩家',
+    title: '测试工程师 | 玩家',
     desc: '长期参与服务器测试，发现并反馈大量功能BUG，保障体验稳定性',
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/523518473' },

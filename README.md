@@ -5,6 +5,37 @@
 
 ---
 
+## 部署使用的所有npm包
+```
+MiragEdge-DocWeb@1.0.0 E:\Dev\Project\MiragEdge-DocWeb
++-- @babel/core@7.28.5
++-- @babel/preset-env@7.28.5
++-- @octokit/rest@22.0.1
++-- @types/canvas-confetti@1.9.0
++-- @types/dom-view-transitions@1.0.6
++-- @types/node@25.0.2
++-- @vrcd-community/markdown-it-video@1.1.1
++-- axios@1.13.2
++-- babel-loader@10.0.0
++-- busuanzi.pure.js@1.0.3
++-- canvas-confetti@1.9.4
++-- dotenv@17.2.3
++-- mermaid@11.12.2
++-- node-fetch@2.7.0
++-- simple-git@3.30.0
++-- terser@5.44.1
++-- ts-node@10.9.2
++-- typescript@5.9.3
++-- vitepress-plugin-announcement@0.1.6
++-- vitepress-plugin-group-icons@1.6.5
++-- vitepress-plugin-mermaid@2.0.17
++-- vitepress-sidebar@1.33.1
++-- vitepress-theme-website@1.0.8
+`-- vitepress@1.6.4
+```
+
+---
+
 ## 核心特性
 
 ### 🔧 技术架构

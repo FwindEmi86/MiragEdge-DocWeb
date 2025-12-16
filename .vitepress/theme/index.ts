@@ -4,6 +4,7 @@
 import { h, onMounted } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import GuildSystem from './components/vue/GuildSystem.vue'
 
 // 导入所有样式文件
 import './css/base/colors.css'
@@ -41,6 +42,7 @@ export default {
     app.component("Confetti", Confetti)
     app.component("LayoutComponent", LayoutComponent)
     app.component('Contributors', Contributors)
+    app.component('GuildSystem', GuildSystem)
 
     // 仅在浏览器环境下执行
     if (inBrowser) {
