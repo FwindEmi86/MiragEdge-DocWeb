@@ -216,6 +216,7 @@ export default defineConfig({
             { text: '品质等级', link: '/features/enchantments/rarity' },
             { text: '功能分类', link: '/features/enchantments/group' },
             { text: '附魔列表', link: '/features/enchantments/list' },
+            { text: '祛魔系统', link: '/features/enchantments/chesed' },
           ]
         },
         {
