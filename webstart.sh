@@ -40,8 +40,6 @@ echo " "
 echo " "
 
 # 构建网站
-nvm use 20
-node -v
 npm run build
 
 echo " "
