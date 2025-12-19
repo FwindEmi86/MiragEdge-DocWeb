@@ -271,6 +271,13 @@ export default defineConfig({
               text: '💬 QQ 群组',
               link: '/manual/qq_group'
             },
+        {
+          text: '🚩 历史活动记录',
+          collapsed: true,
+          items: [
+            { text: '2026元旦合照纪念活动', link: '/manual/active/20260101' },
+          ]
+        },
           ],
         }
       ],

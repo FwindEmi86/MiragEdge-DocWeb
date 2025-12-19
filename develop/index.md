@@ -11,6 +11,8 @@
   caption="MiragEdge ☆ 锐界幻境"
 />
 
+本开发者模块旨在为所有玩家提供快速上手制作锐界幻境服务器内容的教程。这是我打造共创平台的一个关键步骤。  
+
 <script setup>
 import {
   VPTeamPage,
