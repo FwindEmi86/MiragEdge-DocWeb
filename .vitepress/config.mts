@@ -272,10 +272,11 @@ export default defineConfig({
               link: '/manual/qq_group'
             },
         {
-          text: '🚩 历史活动记录',
+          text: '🚩 历史事件记录',
           collapsed: true,
           items: [
             { text: '2026元旦合照纪念活动', link: '/manual/active/20260101' },
+            { text: '存档数据重置', link: '/manual/active/20251017' },
           ]
         },
           ],
