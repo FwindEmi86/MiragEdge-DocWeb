@@ -46,12 +46,23 @@ const coreMembers = [
   {
     avatar: '/images/member/3095328344.jpg',
     name: '雯空璃雫',
-    title: '开发 | 技术宅',
+    title: '插件开发 | 技术宅',
     desc: '专注MC功能插件开发、技术难题攻坚',
     links: [
       { icon: 'github', link: 'https://github.com/3095328344' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3095328344&site=qq&menu=yes' }
+    ],
+  },
+  {
+    avatar: '/images/member/1739283257.jpg',
+    name: 'Moshne',
+    title: 'RPG制作 | 苟技术',
+    desc: '设计制作特殊怪物、BOSS和相关材料',
+    links: [
+      { icon: 'github', link: 'https://github.com/1739283257' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
+      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1739283257&site=qq&menu=yes' }
     ],
   },
 ]
@@ -76,6 +87,16 @@ const partners = [
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3518164690&site=qq&menu=yes' }
+    ],
+  },
+  {
+    avatar: '/images/member/2447855163.jpg',
+    name: '鸢风夜羽',
+    title: '剧情设计 | 世界观缔造者',
+    desc: '为锐界幻境的整体世界观提供了大量且关键的设计思路',
+    links: [
+      { icon: 'bilibili', link: 'https://space.bilibili.com/2447855163' },
+      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=2447855163&site=qq&menu=yes' }
     ],
   },
   {

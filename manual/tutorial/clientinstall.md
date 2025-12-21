@@ -7,7 +7,7 @@
 ▌ **Java版**  
 1. 群文件 → 进入"Java启动器资源"文件夹
   - 在交流群，群文件中，找到 下图所示 文件夹  
-  
+
 <SmartImage 
   src="/images/JEGameFile.png" 
   alt="Java版群文件目录"
@@ -61,7 +61,7 @@
 /> 
 
   [**MCDL下载站**](https://mcbedl.com/)  
-2. 下载 `MCBE-1.21.xx.zip`
+2. 下载 `MCBE-1.21.xx.zip`  
 3. 使用压缩工具解压并安装
 
 ▌ **手机Java版安装**  
