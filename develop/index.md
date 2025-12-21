@@ -27,7 +27,7 @@ const coreMembers = [
     avatar: '/images/member/FwindEmi.jpg',
     name: '狐风轩汐',
     title: '服主 | 技术总负责',
-    desc: '统筹团队方向、服务端设计、插件开发、文档编撰、网络运维管理等',
+    desc: '统筹团队方向、服务端设计、插件开发、贴图UI绘制、文档编撰、硬件和网络系统运维管理等',
     links: [
       { icon: 'github', link: 'https://github.com/FwindEmi86' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/359174372' },
