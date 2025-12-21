@@ -38,7 +38,7 @@ const coreMembers = [
     avatar: '/images/member/1525301523.jpg',
     name: '狐魇星玖',
     title: '视觉设计 | 吉祥物',
-    desc: '团队百科全书，负责网站贴图、插画设计，最爱草莓冰激凌～',
+    desc: '团队百科全书，负责网站贴图、插画设计，最爱小鱼干～',
     links: [
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1525301523&site=qq&menu=yes' }
     ],
