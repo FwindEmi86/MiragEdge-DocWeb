@@ -5,6 +5,7 @@ import { h, onMounted } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import SmartImage from './components/vue/SmartImage.vue'
+import ChristmasTree from './components/vue/ChristmasTree.vue'
 import './css/custom.css'
 
 // 导入所有样式文件
@@ -44,6 +45,7 @@ export default {
     app.component("LayoutComponent", LayoutComponent)
     app.component('Contributors', Contributors)
     app.component('SmartImage', SmartImage)
+    app.component('ChristmasTree', ChristmasTree)
 
     // 仅在浏览器环境下执行
     if (inBrowser) {
