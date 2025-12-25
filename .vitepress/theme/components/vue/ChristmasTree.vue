@@ -2,7 +2,7 @@
   <div class="christmas-container">
     <!-- 标题部分 -->
     <div class="header">
-      <h1 class="title">🎄 给嵘融的圣诞礼物 🎄</h1>
+      <h1 class="title">🎄 给宝宝的圣诞礼物 🎄</h1>
       <div class="love-timer">
         <div class="timer-box">
           <span class="timer-label">我们恋爱已经</span>
@@ -18,7 +18,7 @@
       <!-- 左侧祝福语区域 -->
       <div class="messages-section">
         <div class="messages-container">
-          <h2 class="section-title">💝 给嵘融的话</h2>
+          <h2 class="section-title">💝 给宝宝的话</h2>
           <div class="love-messages">
             <div 
               v-for="(message, index) in messages" 
@@ -41,7 +41,7 @@
               {{ showSurpriseText ? "再点一次" : "点击查看惊喜" }}
             </button>
             <div v-if="showSurpriseText" class="surprise-text">
-              <p>嵘融，和你在一起的{{ loveDays }}天，是我生命中最美好的时光。</p>
+              <p>宝宝，和你在一起的{{ loveDays }}天，是我生命中最美好的时光。</p>
               <p>每一天都因为有你而变得特别，圣诞快乐，我的爱人！🎅🎁</p>
             </div>
           </div>
@@ -122,7 +122,7 @@
           
           <!-- 树下文字 -->
           <div class="tree-footer">
-            <p class="tree-message">嵘融，愿我们的爱情如这圣诞树般长青永恒！</p>
+            <p class="tree-message">宝宝，愿我们的爱情如这圣诞树般长青永恒！</p>
             <div class="hearts">
               <span v-for="n in 8" :key="'heart-' + n" class="heart">❤</span>
             </div>
@@ -133,7 +133,7 @@
 
     <!-- 页脚 -->
     <div class="footer">
-      <p>❤️ 特别的爱给特别的你 - 嵘融，圣诞快乐！ ❤️</p>
+      <p>❤️ 特别的爱给特别的你 - 宝宝，圣诞快乐！ ❤️</p>
       <p class="footer-date">制作于 {{ currentYear }} 年圣诞节</p>
     </div>
   </div>
@@ -151,7 +151,7 @@ const currentYear = new Date().getFullYear()
 
 // 给嵘融的祝福语
 const messages = ref([
-  "嵘融，遇见你是我一生中最幸运的事",
+  "宝宝，遇见你是我一生中最幸运的事",
   "每一天都比前一天更爱你",
   "你的笑容是我最大的幸福",
   "愿我们的爱情像圣诞树一样永远闪耀",
