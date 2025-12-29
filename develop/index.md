@@ -65,6 +65,17 @@ const coreMembers = [
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1739283257&site=qq&menu=yes' }
     ],
   },
+  {
+    avatar: '/images/member/3301237007.jpg',
+    name: '疑问小猫',
+    title: '网页编写 | 内容制作',
+    desc: '编写部分网页内容，制作更多食物内容',
+    links: [
+      { icon: 'github', link: 'https://github.com/3301237007' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
+      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3301237007&site=qq&menu=yes' }
+    ],
+  },
 ]
 
 // 贡献者列表
