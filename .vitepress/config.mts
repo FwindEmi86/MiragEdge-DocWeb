@@ -276,6 +276,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '2026元旦合照纪念活动', link: '/manual/active/20260101' },
+            { text: '新服数据丢失事件', link: '/manual/active/20251225' },
             { text: '存档数据重置', link: '/manual/active/20251017' },
           ]
         },
