@@ -133,6 +133,10 @@ const partners = [
 ]
 </script>
 
+<a href="https://openomy.com/FwindEmi86/MiragEdge-DocWeb" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=FwindEmi86/MiragEdge-DocWeb&chart=bubble&latestMonth=3" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+</a>
+
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>开发团队</template>

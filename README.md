@@ -3,7 +3,9 @@
 ## 关于我们
 锐界幻境是基于高版本Minecraft（Java 1.21.8）的跨平台互通服务器，支持Java版与基岩版玩家同服游玩。本仓库是服务器官方文档库，涵盖**玩家指南**、**开发协作**、**版本日志**等核心内容，旨在帮助玩家快速上手、开发者高效协作，同时记录服务器的成长历程。
 
----
+<a href="https://openomy.com/FwindEmi86/MiragEdge-DocWeb" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=FwindEmi86/MiragEdge-DocWeb&chart=bubble&latestMonth=3" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+</a>
 
 ## 部署使用的所有npm包
 ```
