@@ -149,14 +149,8 @@ export default defineConfig({
       { text: '🏠 首页', link: '/' },
       { 
         text: '🎮 玩法介绍',
-        activeMatch: '^/features/',
-        items: [
-          { text: '🌱 星露谷种植', link: '/features/croups/info' },
-          { text: '🎣 星露谷钓鱼', link: '/features/fishing/info' },
-          { text: '✨ 特殊附魔', link: '/features/enchantments/info' },
-          { text: '⚔️ 装备升级', link: '/features/mmo/info' },
-          { text: '🍲 更多食物', link: '/features/food/info' },
-        ]
+        link: '/features/index',
+        activeMatch: '^/features/'
       },
       { 
         text: '📚 玩家手册', 
@@ -194,22 +188,35 @@ export default defineConfig({
     // 侧边栏配置
     sidebar: {
       '/features/': [
+        {text: '📖 玩法总览', link: '/features/index' },
+        {
+          text: '🌼 真实季节',
+          collapsed: false,
+          items: [
+            { text: '整体介绍', link: '/features/seasons/info' },
+            { text: '温度系统', link: '/features/seasons/temperature' },
+            { text: '春季', link: '/features/seasons/spring' },
+            { text: '夏季', link: '/features/seasons/summer' },
+            { text: '秋季', link: '/features/seasons/fall' },
+            { text: '冬季', link: '/features/seasons/winter' },
+          ]
+        },
         {
           text: '🌱 星露谷种植',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '介绍', link: '/features/croups/info' },
           ]
         },
         {
           text: '🎣 星露谷钓鱼',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '介绍', link: '/features/fishing/info' },
           ]
         },
         {
-          text: '✨ 特殊附魔',
+          text: '✨ 更多附魔',
           collapsed: false,
           items: [
             { text: '介绍', link: '/features/enchantments/info' },
@@ -221,14 +228,14 @@ export default defineConfig({
         },
         {
           text: '⚔️ 装备升级',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '介绍', link: '/features/mmo/info' },
           ]
         },
         {
           text: '🍲 更多食物',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '介绍', link: '/features/food/info' },
           ]

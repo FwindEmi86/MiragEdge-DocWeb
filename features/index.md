@@ -82,10 +82,19 @@
 </style>
 
 <div class="feature-cards">
+  <a href="/features/seasons/info" class="feature-card chat-card">
+    <div class="feature-card-content">
+      <h3>🌼 真实季节</h3>
+      <p>完整的季节循环，每个季节都拥有独一无二的视觉风格与专属特色。</p>
+    </div>
+  </a>
+</div>
+
+<div class="feature-cards">
   <a href="/features/enchantments/info" class="feature-card chat-card">
     <div class="feature-card-content">
-      <h3>💬 高级附魔系统</h3>
-      <p>我们添加了更多新的附魔内容</p>
+      <h3>✨ 更多附魔</h3>
+      <p>你是否厌倦了原版千篇一律的附魔？我们添加了近300个新的附魔内容！覆盖8个品质等级。</p>
     </div>
   </a>
 </div>
