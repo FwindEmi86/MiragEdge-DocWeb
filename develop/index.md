@@ -50,7 +50,6 @@ const coreMembers = [
     desc: '专注MC功能插件开发、技术难题攻坚',
     links: [
       { icon: 'github', link: 'https://github.com/3095328344' },
-      { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3095328344&site=qq&menu=yes' }
     ],
   },
@@ -61,18 +60,25 @@ const coreMembers = [
     desc: '设计制作特殊怪物、BOSS和相关材料',
     links: [
       { icon: 'github', link: 'https://github.com/1739283257' },
-      { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1739283257&site=qq&menu=yes' }
+    ],
+  },
+  {
+    avatar: '/images/member/1043033708.jpg',
+    name: '静静有魔力',
+    title: '语音频道维护 | 网页编写',
+    desc: '官方语音频道主要维护者',
+    links: [
+      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1043033708&site=qq&menu=yes' }
     ],
   },
   {
     avatar: '/images/member/3301237007.jpg',
     name: '疑问小猫',
-    title: '网页编写 | 内容制作',
-    desc: '编写部分网页内容，制作更多食物内容',
+    title: '内容制作 | 星露谷作物',
+    desc: '更多作物、食物的玩法内容设计制作',
     links: [
-      { icon: 'github', link: 'https://github.com/3301237007' },
-      { icon: 'bilibili', link: 'https://space.bilibili.com/placeholder' }, // 原链接为图片，暂占位标注
+      { icon: 'github', link: 'https://github.com/xiaomao114git' },
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3301237007&site=qq&menu=yes' }
     ],
   },
@@ -106,7 +112,6 @@ const partners = [
     title: '剧情设计 | 世界观缔造者',
     desc: '为锐界幻境的整体世界观提供了大量且关键的设计思路',
     links: [
-      { icon: 'bilibili', link: 'https://space.bilibili.com/2447855163' },
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=2447855163&site=qq&menu=yes' }
     ],
   },
@@ -118,6 +123,15 @@ const partners = [
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/1891009014' },
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1732920162&site=qq&menu=yes' }
+    ],
+  },
+  {
+    avatar: '/images/member/3688625341.jpg',
+    name: 'kxdsjxsa',
+    title: '赛季玩法设计 | 充值体系设计',
+    desc: '为服务器的功能玩法设计与氪金体系设计提供了宝贵的意见',
+    links: [
+      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3688625341&site=qq&menu=yes' }
     ],
   },
   {

@@ -9,3 +9,21 @@
 添加新作物的同时加入相关联的新食物、新道具、新武器装备。
 
 总之这是一个庞大的项目，需要很多人加入进来用时间细细打磨。
+
+CustomCroups作物插件官方Wiki：  
+https://momi.gtemc.cn/customcrops
+
+ItemsAdder材质添加插件官方Wiki：  
+https://itemsadder.devs.beer/plugin-usage/adding-content/crops
+
+需要做的事：  
+依据自身设计，  
+调整作物生长条件（光照，水分，季节等）  
+成熟或成熟阶段的收货动作效果（不同阶段掉落什么，掉落概率）  
+修改每一个作物以及其阶段的lora词条、名字等  
+
+<SmartImage 
+  src="/images/develop/customcroups_lora_list.png" 
+  alt="作物词条"
+  caption="作物词条-纯良之人 编写"
+/>

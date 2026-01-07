@@ -252,7 +252,7 @@ export default defineConfig({
             { text: '🔗 入服方法', link: '/manual/tutorial/serverjoin' },
             { text: '💾 白名单系统', link: '/manual/tutorial/whitelist' },
             { text: '🔌 客户端安装', link: '/manual/tutorial/clientinstall' },
-            { text: '🎮 核心玩法目标', link: '/manual/tutorial/gameplay' },
+            { text: '🎮 官方语音频道', link: '/manual/tutorial/voicechannel' },
           ]
         },
         {
@@ -320,7 +320,8 @@ export default defineConfig({
           text: '🎨 服务器插件配置编写',
           collapsed: false,
           items: [
-            { text: '🌽 自定义种植作物', link: '/develop/server_configs/customcrops' },
+            { text: '自定义作物', link: '/develop/server_configs/customcrops' },
+            { text: '更多附魔', link: '/develop/server_configs/enchanting' },
           ]
         },
         {
