@@ -260,7 +260,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '🐧 群服互通机器人', link: '/manual/function/qqbot' },
-            { text: '🐶 MOD玩法拓展支持', link: '/manual/function/mod' },
+            { text: '🐶 MOD拓展功能支持', link: '/manual/function/mod' },
             { text: '💰 经济系统', link: '/manual/function/economy' },
             { text: '🏠 玩家工会', link: '/manual/function/playerguild' },
           ]
