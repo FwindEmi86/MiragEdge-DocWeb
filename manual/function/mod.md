@@ -1,16 +1,15 @@
 # 服内模组支持
 
-## 音乐点播姬(AllMusic)
-
+## 音乐点播姬([AllMusic](https://www.mcmod.cn/class/14959.html "AllMusic"))
 <SmartImage 
   src="/images/msreg/allmusic.jpg" 
-  maxWidth="90px"
+  maxWidth="240px"
   caption="AllMusic"
 />
 
 [**点击前往蓝奏云下载**](https://wwbkb.lanzouu.com/b002vmtcve "AllMusic")(密码: 3fsb )
 
-> ✅ 适用版本：仅 1.21 版本的 Fabric 端可用，安装时请寻找最接近自身游戏版本接近的模组包
+> ✅ 适用版本：仅 1.21 版本的 Fabric 端可用，安装时请寻找最接近自身游戏版本的模组包
 > ✅ 必需前置：[FLK] [Fabric Language Kotlin](https://www.mcmod.cn/class/2126.html "FLK")
 
 ### ✔ 服内完整使用指令
@@ -44,8 +43,42 @@
 - `/music hud enable` - 启用/关闭所有界面
 - `/music hud reset` - 重置所有界面
 
+---
 
-## 简单语音聊天(Simple Voice Chat)
+## 简单语音聊天([Simple Voice Chat](https://www.mcmod.cn/class/3693.html  "Simple Voice Chat"))
+<SmartImage 
+  src="/images/msreg/svc.jpg" 
+  maxWidth="80px"
+  caption="Simple Voice Chat"
+/>
 
+[点击前往官方下载页面](https://modrepo.de/minecraft/voicechat/downloads "modrepo")(选择你需要的版本)
+> ✔ 便捷安装：直接在 PCL2 中搜索「Simple Voice Chat」即可一键安装
 
-## 连锁采集(VeinMiner)
+首次安装模组后，进入服务器或单人世界时会收到聊天消息，提示你需要完成语音聊天模组的相关设置。
+
+### ✔ 功能与默认热键
+| 功能 | 默认热键 | 备注 |
+| ---- | ---- | ---- |
+| 语音通话设置 | `V` | 打开语音通话设置菜单 |
+| 按键通话 | `Caps Lock` | 按住该按键进行通话（按键通话模式下） |
+| 麦克风静音 | `M` | 按住该按键临时停止声音输入（语音触发通话模式下） |
+| 禁用语音通话 | `N` | 禁用语音通话，退出语音频道 |
+| 隐藏图标 | `H` | 隐藏本模组的所有图标，但不影响功能使用 |
+
+> ⚠ 注意：语音聊天为加密传输，但模组作者不保证绝对安全性，使用该功能请自行承担风险！
+
+---
+
+## 连锁采集([VeinMiner](https://www.mcmod.cn/class/589.html "VeinMiner"))
+<SmartImage 
+  src="/images/msreg/VeinMiner.jpg" 
+  maxWidth="240px"
+  caption="VeinMiner"
+/>
+
+[点击前往modrinth下载](https://modrinth.com/datapack/veinminer?version=1.21.8&loader=fabric#download "modrinth")(选择你需要的版本下载)
+> ✔ 便捷安装：直接在 PCL2 中搜索「VeinMiner」即可一键安装
+
+我也不知道为什么连锁挖矿也需要在客户端安装模组，
+可能是为了启用快捷键绑定、快速切换连锁状态？
