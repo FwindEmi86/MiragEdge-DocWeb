@@ -360,12 +360,21 @@ export default defineConfig({
       
       '/fwindemiko/': [
         {
+          text: 'Docker 学习笔记',
+          collapsed: false,
+          items: [
+            { text: 'Dockerfile', link: '/fwindemiko/docker/docker_file' },
+            { text: 'GPMaill单机部署', link: '/fwindemiko/docker/gpmall' },
+          ]
+        },
+        {
           text: 'K8s 学习笔记',
           collapsed: false,
           items: [
-            { text: 'kubectl命令速查指南', link: '/fwindmiko/kubernetes/kubectl' },
+            { text: 'kubectl命令速查指南', link: '/fwindemiko/kubernetes/kubectl' },
+            { text: 'GitLab CI/CD', link: '/fwindemiko/kubernetes/gitlab_cicd' },
           ]
-        }
+        },
       ]
     },
     
