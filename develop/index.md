@@ -190,8 +190,8 @@ const givemoney = [
   {
     avatar: '/images/member/sly.jpg',
     name: 'SLY',
-    title: '双林工会',
-    desc: '会长大大',
+    title: '狐狸挚友兼双林会长',
+    desc: '锐界幻境越来越好（都来加入我们公会）',
     links: [
     ],
   },
