@@ -1,17 +1,33 @@
 # 开发文档中心
   
-欢迎来到锐界幻境（MiragEdge）开发者文档平台，这里汇总了服务器开发相关的插件、规范与团队信息，助力开发者高效协作。
-
----
-
 <SmartImage 
   src="/avatars/MiragEdge.png" 
-  maxWidth="600px"
+  maxWidth="450px"
   alt="锐界幻境"
   caption="MiragEdge ☆ 锐界幻境"
 />
 
+欢迎来到锐界幻境（MiragEdge）开发者文档平台，这里汇总了服务器开发相关的插件、规范与团队信息，助力开发者高效协作。
+
 本开发者模块旨在为所有玩家提供快速上手制作锐界幻境服务器内容的教程。这是我打造共创平台的一个关键步骤。  
+
+最大的挑战不是创意，而是项目管理和持续运营。  
+
+## 📋 文档导航
+### 🔧 原创插件列表
+| 插件名称 | 插件说明 | 文档链接 |
+|----------|----------|----------|
+| EMCShop | 等价交换商店（集成物品银行系统，支持物品与货币双向兑换） | [EMCShop 文档](/develop/mc_plugins/emcshop.md) |
+| FE_Fly | 幻空翼飞行（限时飞行权限管理系统，支持飞行时长配置） | [FE_Fly 文档](/develop/mc_plugins/fe_fly.md) |
+
+### 📐 开发规范与协作
+- [开发者编码规范](/develop/develop_standard) - 统一代码风格、命名规则与提交规范
+- [贡献指南 v1.0](#贡献指南v1-0) - 插件开发、内容创作、测试反馈的贡献流程与标准
+
+### 📌 备注
+- 若发现文档链接失效、内容错误，可联系核心团队成员反馈；
+- 新增插件/规范文档会持续更新至本导航栏，建议收藏本页便于查阅。
+
 
 <script setup>
 import {
@@ -134,36 +150,68 @@ const partners = [
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=3688625341&site=qq&menu=yes' }
     ],
   },
+]
+
+// 赞助者列表
+const givemoney = [
   {
     avatar: '/images/member/laowu.jpg',
     name: '老无',
-    title: '赞助者 | 玩家',
+    title: '大股东',
     desc: '服务器的步履不停，皆因有赞助者相伴同行',
+    links: [
+    ],
+  },
+  {
+    avatar: '/images/member/anan.jpg',
+    name: '安安',
+    title: '依旧是安安啦🐶',
+    desc: '一句话',
     links: [
     ],
   },
   {
     avatar: '/images/member/Zelova.png',
     name: '幻辰汐Zelova',
-    title: '玩家',
+    title: '🆙玩家',
     desc: '曾长期参与服务器测试，反馈大量BUG，超级在线王',
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/523518473' },
-      { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1415785556&site=qq&menu=yes' }
+    ],
+  },
+  {
+    avatar: '/images/member/qipian.jpg',
+    name: '𝓺𝓲𝓹𝓲𝓪𝓷',
+    title: '金主+1',
+    desc: '锐界幻境启动！~',
+    links: [
+    ],
+  },
+  {
+    avatar: '/images/member/sly.jpg',
+    name: 'SLY',
+    title: '双林工会',
+    desc: '会长大大',
+    links: [
+    ],
+  },
+  {
+    avatar: '/images/member/27.jpg',
+    name: '贰柒',
+    title: '腐竹粗软香糯的女朋友',
+    desc: '你不觉得这个莲花真的很好看吗',
+    links: [
     ],
   },
 ]
 </script>
 
-<a href="https://openomy.com/FwindEmi86/MiragEdge-DocWeb" target="_blank" style="display: block; width: 100%;" align="center">
-  <img src="https://openomy.com/svg?repo=FwindEmi86/MiragEdge-DocWeb&chart=bubble&latestMonth=3" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
-</a>
 
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>开发团队</template>
     <template #lead>
-      锐界幻境的稳定运行与功能迭代，离不开每位团队成员的专业付出与持续投入（排名不分前后）
+      锐界幻境的稳定运行与功能迭代，离不开每位团队成员的专业付出与持续投入。
     </template>
   </VPTeamPageTitle>
   
@@ -174,29 +222,27 @@ const partners = [
   <VPTeamPageSection>
     <template #title>社区贡献者</template>
     <template #lead>
-      感谢每位为服务器添砖加瓦的贡献者，正是你们的参与让锐界幻境更完善（排名不分前后）
+      感谢每位为服务器添砖加瓦的贡献者，正是你们的参与让锐界幻境更完善。  
     </template>
     <template #members>
       <VPTeamMembers size="small" :members="partners" />
     </template>
   </VPTeamPageSection>
+
+  <!-- 赞助者者板块 -->
+  <VPTeamPageSection>
+    <template #title>赞助者</template>
+    <template #lead>
+      由衷感恩每一位赞助者的倾力助力与暖心支持，正是这份珍贵的心意与陪伴，为服务器的稳步发展注入了坚实动力，让我们得以携手同行、共筑这片属于所有玩家的美好游戏光景，奔赴更精彩的服务器未来。  
+    </template>
+    <template #members>
+      <VPTeamMembers size="small" :members="givemoney" />
+    </template>
+  </VPTeamPageSection>
 </VPTeamPage>
 
----
+<a href="https://openomy.com/FwindEmi86/MiragEdge-DocWeb" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=FwindEmi86/MiragEdge-DocWeb&chart=bubble&latestMonth=1" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+</a>
 
-最大的挑战不是创意，而是项目管理和持续运营。
-
-## 📋 文档导航
-### 🔧 原创插件列表
-| 插件名称 | 插件说明 | 文档链接 |
-|----------|----------|----------|
-| EMCShop | 等价交换商店（集成物品银行系统，支持物品与货币双向兑换） | [EMCShop 文档](/develop/mc_plugins/emcshop.md) |
-| FE_Fly | 幻空翼飞行（限时飞行权限管理系统，支持飞行时长配置） | [FE_Fly 文档](/develop/mc_plugins/fe_fly.md) |
-
-### 📐 开发规范与协作
-- [开发者编码规范](/develop/develop_standard) - 统一代码风格、命名规则与提交规范
-- [贡献指南 v1.0](#贡献指南v1-0) - 插件开发、内容创作、测试反馈的贡献流程与标准
-
-### 📌 备注
-- 若发现文档链接失效、内容错误，可联系核心团队成员反馈；
-- 新增插件/规范文档会持续更新至本导航栏，建议收藏本页便于查阅。
+**以上名单，排名不分前后**  
