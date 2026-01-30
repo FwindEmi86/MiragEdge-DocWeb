@@ -12,7 +12,8 @@ services:
       - "5174:88"
     volumes:
       # 映射静态网站目录
-      - ./build/f.windemiko.top:/web_fwindemiko
+      - /www/MiragEdge/fwindemiko:/web_fwindemiko
+      # - ./build/f.windemiko.top:/web_fwindemiko
       - ./build/miragedge.top:/web_miragedge
       # 可选的：如果需要热更新配置文件而不重建镜像，可以挂载配置文件
       - ./default.conf:/etc/nginx/conf.d/default.conf:ro
