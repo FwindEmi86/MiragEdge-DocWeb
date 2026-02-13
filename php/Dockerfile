@@ -11,7 +11,7 @@ RUN apk add --no-cache \
     libzip-dev \
     oniguruma-dev
 
-# 2. 配置 GD 扩展（启用对 jpeg, png, freetype, webp, xpm 的支持）
+# 2. 配置 GD 扩展
 RUN docker-php-ext-configure gd \
     --with-freetype \
     --with-jpeg \
@@ -27,14 +27,17 @@ RUN docker-php-ext-install \
     zip \
     mbstring
 
+# 4. 安装 Imagick 及其依赖
 RUN apk add --no-cache imagemagick-dev imagemagick
-RUN pecl install imagick && docker-php-ext-enable imagick
 
-# 4. 复制自定义 PHP 配置（大文件上传、超时等）
+# 4.1 安装编译工具并编译安装 Imagick 扩展（安装后删除编译工具，保持镜像精简）
+RUN apk add --no-cache autoconf automake libtool make g++ && \
+    pecl install imagick && \
+    docker-php-ext-enable imagick && \
+    apk del autoconf automake libtool make g++
+
+# 5. 复制自定义 PHP 配置（大文件上传、内存限制等）
 COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
-
-# 5. （可选）安装 Redis 等第三方扩展
-# RUN pecl install redis && docker-php-ext-enable redis
 
 # 6. 清理缓存
 RUN rm -rf /var/cache/apk/*
@@ -44,4 +47,3 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shangh
 
 # 8. 使用非 root 用户运行
 USER www-data
-#USER root
