@@ -40,5 +40,5 @@ RUN rm -rf /var/cache/apk/*
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shanghai" > /etc/timezone
 
 # 8. 使用非 root 用户运行
-#USER www-data
-USER root
+USER www-data
+#USER root
