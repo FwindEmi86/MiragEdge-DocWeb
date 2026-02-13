@@ -41,3 +41,4 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shangh
 
 # 8. 使用非 root 用户运行
 #USER www-data
+USER root
