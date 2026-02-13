@@ -27,6 +27,9 @@ RUN docker-php-ext-install \
     zip \
     mbstring
 
+RUN apk add --no-cache imagemagick-dev imagemagick
+RUN pecl install imagick && docker-php-ext-enable imagick
+
 # 4. 复制自定义 PHP 配置（大文件上传、超时等）
 COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
 
