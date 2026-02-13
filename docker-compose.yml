@@ -4,22 +4,37 @@ services:
   nginx:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile   # 你的 Nginx Dockerfile（若使用官方 nginx:alpine 可改）
     container_name: nginx
     restart: unless-stopped
     ports:
-      - "5173:80"  # 母机5173端口映射到容器80端口
-      - "5174:88"
+      - "5173:80"              # miragedge.top 静态站点
+      - "5174:88"              # f.windemiko.top WordPress 站点（监听88）
     volumes:
-      # 映射静态网站目录
-      - /www/MiragEdge/fwindemiko:/web_fwindemiko
-      # - ./build/f.windemiko.top:/web_fwindemiko
-      - ./build/miragedge.top:/web_miragedge
-      # 可选的：如果需要热更新配置文件而不重建镜像，可以挂载配置文件
+      # WordPress 目录（Nginx 只需读权限）
+      - /www/MiragEdge/fwindemiko:/web_fwindemiko:ro
+      # 静态站点目录
+      - ./build/miragedge.top:/web_miragedge:ro
+      # Nginx 配置文件
       - ./default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - php8                  # 确保 php8 先启动
     networks:
       - miragedge-network
 
+  # ---------- 新增：PHP 8-FPM 服务 ----------
+  php8:
+    build: ./php              # 使用自定义 Dockerfile 安装扩展
+    container_name: php8
+    restart: unless-stopped
+    volumes:
+      - /www/MiragEdge/fwindemiko:/web_fwindemiko   # PHP 需要读写权限
+    networks:
+      - miragedge-network
+    # 可选：暴露 9000 端口（仅用于调试，非必须）
+    # ports:
+    #   - "9000:9000"
+
 networks:
   miragedge-network:
-    external: true
+    external: true            # 保持你的 external 网络设置（必须预先创建）
