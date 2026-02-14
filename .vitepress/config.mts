@@ -166,32 +166,47 @@ export default defineConfig({
         text: '👥 官方Q群', 
         link: '/manual/qq_group' 
       },
-      //{
-      //  text: '🔗 相关链接', 
-      //  items: [
-      //    { 
-      //      text: '📺 哔哩哔哩 - 狐风轩汐', 
-      //      link: 'https://space.bilibili.com/359174372',
-      //      target: '_blank',
-      //      rel: 'noopener noreferrer'
-      //    },
-      //    { 
-      //      text: '📦 GitHub - 锐界幻境文档', 
-      //      link: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
-      //      target: '_blank',
-      //      rel: 'noopener noreferrer'
-      //    },
-      //  ]
-      //},
+      {
+       text: '🔗 相关链接', 
+       items: [
+         { 
+           text: '🦊 狐风轩汐の小窝-Blog', 
+           link: 'https://f.windemiko.top',
+           target: '_blank',
+           rel: 'noopener noreferrer'
+         },
+         { 
+           text: '📺 哔哩哔哩 - 狐风轩汐', 
+           link: 'https://space.bilibili.com/359174372',
+           target: '_blank',
+           rel: 'noopener noreferrer'
+         },
+         { 
+           text: '📦 GitHub - 锐界幻境文档', 
+           link: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
+           target: '_blank',
+           rel: 'noopener noreferrer'
+         },
+       ]
+      },
     ],
     
     // 侧边栏配置
     sidebar: {
       '/features/': [
-        {text: '📖 玩法总览', link: '/features/index' },
+        { text: '📖 玩法总览', link: '/features/index' },
+        {
+          text: '⚒️ 基础内容',
+          collapsed: false,
+          items: [
+            { text: '💰 经济系统', link: '/features/base/economy' },
+            { text: '🏠 玩家工会', link: '/features/base/playerguild' },
+            { text: '🎡 幻域领地', link: '/features/base/dom' },
+          ]
+        },
         {
           text: '🌼 真实季节',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '整体介绍', link: '/features/seasons/info' },
             { text: '温度系统', link: '/features/seasons/temperature' },
@@ -256,14 +271,11 @@ export default defineConfig({
           ]
         },
         {
-          text: '🔧 常用功能教程',
+          text: '🔧 附属功能教程',
           collapsed: false,
           items: [
             { text: '🐧 群服互通机器人', link: '/manual/function/qqbot' },
             { text: '🐶 MOD拓展功能支持', link: '/manual/function/mod' },
-            { text: '💰 经济系统', link: '/manual/function/economy' },
-            { text: '🏠 玩家工会', link: '/manual/function/playerguild' },
-            { text: '🎡 幻域领地', link: '/manual/function/dom' },
           ]
         },
         {
@@ -369,18 +381,18 @@ export default defineConfig({
     returnToTopLabel: '返回顶部',
     
     // 社交链接
-    socialLinks: [
-      { 
-        icon: 'bilibili', 
-        link: 'https://space.bilibili.com/359174372',
-        ariaLabel: '📺 哔哩哔哩 - 狐风轩汐'
-      },
-      { 
-        icon: 'github', 
-        link: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
-        ariaLabel: '📦 GitHub - 锐界幻境文档'
-      },
-    ],
+    // socialLinks: [
+    //   { 
+    //     icon: 'bilibili', 
+    //     link: 'https://space.bilibili.com/359174372',
+    //     ariaLabel: '📺 哔哩哔哩 - 狐风轩汐'
+    //   },
+    //   { 
+    //     icon: 'github', 
+    //     link: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
+    //     ariaLabel: '📦 GitHub - 锐界幻境文档'
+    //   },
+    // ],
     
     // 最后更新时间
     lastUpdated: {
