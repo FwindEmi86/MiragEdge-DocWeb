@@ -365,7 +365,6 @@ export default defineConfig({
           text: '🔗 关于',
           collapsed: true,
           items: [
-            { text: '概述', link: '/develop/' },
             { text: '节点状态', link: '/develop/serverstatus' },
           ]
         }
