@@ -13,8 +13,8 @@
 CustomCroups作物插件官方Wiki：  
 https://momi.gtemc.cn/customcrops
 
-ItemsAdder材质添加插件官方Wiki：  
-https://itemsadder.devs.beer/plugin-usage/adding-content/crops
+CraftEngine材质添加插件官方Wiki：  
+https://ce.gtemc.cn/zh-Hans/
 
 需要做的事：  
 依据自身设计，  
@@ -25,5 +25,5 @@ https://itemsadder.devs.beer/plugin-usage/adding-content/crops
 <SmartImage 
   src="/images/develop/customcroups_lora_list.png" 
   alt="作物词条"
-  caption="作物词条-纯良之人 编写"
+  caption="作物词条-乌鸡鲅鱼 编写"
 />

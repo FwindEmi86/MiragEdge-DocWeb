@@ -24,7 +24,7 @@ https://wiki.polarastrum.cc/plugin/aiyatsbus/start/ench/basic/
 
 
 
-附魔效果逻辑的实现使用了kether脚本  
+附魔效果逻辑的实现使用了kether脚本（未来将弃用）  
 
 kether脚本语句大全：  
 https://taboolib.hhhhhy.kim/kether-list
