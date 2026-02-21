@@ -1,4 +1,4 @@
-name: 自动网页构建测试流程
+name: 测试构建部署工作流
 
 on:
   push:
@@ -31,12 +31,12 @@ jobs:
       - name: 复制 mark.js依赖包
         run: cp -rf ./.vitepress/mark.js ./node_modules/
 
-      - name: 创建测试报告输出目录（如果没有）
+      - name: 创建测试报告输出目录
         run: |
-          mkdir -p ./test_tool/test/coverage
-          mkdir -p ./test_tool/test/test-results
-          mkdir -p ./test_tool/test/logs
-          echo "Test directories created successfully"
+          mkdir -p ${{ env.TEST_OUTPUT_DIR }}/test/coverage
+          mkdir -p ${{ env.TEST_OUTPUT_DIR }}/test/test-results
+          mkdir -p ${{ env.TEST_OUTPUT_DIR }}/test/logs
+          echo "测试目录创建成功"
 
       - name: 构建网页项目
         run: npm run build
@@ -44,20 +44,24 @@ jobs:
       - name: 运行测试并输出报告
         id: tests
         run: |
-          echo "Starting test execution..."
-          npm run test:coverage 2>&1 | tee ./test_tool/test/logs/test-output.log
+          echo "开始执行测试..."
+          npm run test:coverage 2>&1 | tee ${{ env.TEST_OUTPUT_DIR }}/test/logs/test-output.log
           
           # 记录退出代码
           TEST_EXIT_CODE=${PIPESTATUS[0]}
-          echo "Test exit code: $TEST_EXIT_CODE"
+          echo "测试退出码: $TEST_EXIT_CODE"
           
           # 验证测试输出文件
-          if [ -f "./test_tool/test/test-results/test-output.json" ]; then
-            echo "✓ 测试并生成报告成功"
+          if [ -f "${{ env.TEST_OUTPUT_DIR }}/test/test-results/test-output.json" ]; then
+            echo "✓ 测试报告生成成功"
+          else
+            echo "✗ 测试报告未生成"
           fi
           
-          if [ -d "./test_tool/test/coverage" ]; then
-            echo "✓ 测试并生成报告失败"
+          if [ -d "${{ env.TEST_OUTPUT_DIR }}/test/coverage" ]; then
+            echo "✓ 覆盖率报告生成成功"
+          else
+            echo "✗ 覆盖率报告未生成"
           fi
           
           exit $TEST_EXIT_CODE
@@ -68,22 +72,61 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-results-${{ github.run_id }}
-          path: |
-            test_tool/test/
+          path: ${{ env.TEST_OUTPUT_DIR }}/test/
           retention-days: 7
 
       - name: 测试统计信息输出总结
         if: always()
         run: |
           echo "=== 测试执行摘要 ==="
-          echo "测试统计信息: ${{ steps.tests.outcome }}"
+          echo "测试结果: ${{ steps.tests.outcome }}"
           
-          if [ -f "./test_tool/test/logs/test-output.log" ]; then
-            echo "=== 测试时的最后20行日志 ==="
-            tail -20 ./test_tool/test/logs/test-output.log
+          if [ -f "${{ env.TEST_OUTPUT_DIR }}/test/logs/test-output.log" ]; then
+            echo "=== 测试日志最后20行 ==="
+            tail -20 ${{ env.TEST_OUTPUT_DIR }}/test/logs/test-output.log
           fi
           
           echo "=== 测试结果目录 ==="
-          echo "Coverage: test_tool/test/coverage/"
-          echo "Results: test_tool/test/test-results/"
-          echo "Logs: test_tool/test/logs/"
+          echo "覆盖率: ${{ env.TEST_OUTPUT_DIR }}/test/coverage/"
+          echo "报告: ${{ env.TEST_OUTPUT_DIR }}/test/test-results/"
+          echo "日志: ${{ env.TEST_OUTPUT_DIR }}/test/logs/"
+
+      # ---------- 部署阶段 ----------
+      - name: 设置 SSH 代理
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.actions }}
+
+      - name: 添加 SSH 已知主机
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
+        run: |
+          ssh-keyscan -H miragedge.top >> ~/.ssh/known_hosts
+
+      - name: 部署到服务器
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
+        run: |
+          # 定义远程服务器信息（请确保 secrets.actions 对应的用户有权限）
+          REMOTE_USER="root"            # 如需修改，可将用户名存入 secrets，例如 ${{ secrets.DEPLOY_USER }}
+          REMOTE_HOST="miragedge.top"
+          REMOTE_PORT="22"
+          REMOTE_PATH="/www/MiragEdge/build/"
+
+          # 自动探测构建输出目录（优先使用 ./dist，否则回退到 ./.vitepress/dist）
+          if [ -d "./dist" ]; then
+            BUILD_DIR="./dist"
+          elif [ -d "./.vitepress/dist" ]; then
+            BUILD_DIR="./.vitepress/dist"
+          else
+            echo "错误：未找到构建输出目录（dist 或 .vitepress/dist）"
+            exit 1
+          fi
+          echo "使用构建目录: $BUILD_DIR"
+
+          # 确保远程目录存在
+          ssh -p $REMOTE_PORT ${REMOTE_USER}@${REMOTE_HOST} "mkdir -p ${REMOTE_PATH}"
+
+          # 使用 rsync 同步文件（-a 归档，-v 详细，-z 压缩，--delete 删除远程多余文件）
+          rsync -avz --delete -e "ssh -p $REMOTE_PORT" ${BUILD_DIR}/ ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}
+
+          echo "部署完成！"
