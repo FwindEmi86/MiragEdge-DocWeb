@@ -103,26 +103,24 @@ jobs:
         run: |
           ssh-keyscan -H miragedge.top >> ~/.ssh/known_hosts
 
-      - name: 安装 rsync 工具
+      - name: 部署到服务器（含 rsync 安装）
         if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
         run: |
+          # 安装 rsync（如果未安装，该命令幂等）
           sudo apt-get update
           sudo apt-get install -y rsync
 
-      - name: 部署到服务器
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
-        run: |
-          # 定义远程服务器信息（请确保 secrets.actions 对应的用户有权限）
-          REMOTE_USER="root"            # 如需修改，可将用户名存入 secrets，例如 ${{ secrets.DEPLOY_USER }}
+          # 定义远程服务器信息
+          REMOTE_USER="root"
           REMOTE_HOST="miragedge.top"
           REMOTE_PORT="22"
           REMOTE_PATH="/www/MiragEdge/build/"
 
           # 自动探测构建输出目录（优先使用 ./dist，否则回退到 ./.vitepress/dist）
-          if [ -d "./dist" ]; then
-            BUILD_DIR="./dist"
-          elif [ -d "./.vitepress/dist" ]; then
+          if [ -d "./.vitepress/dist" ]; then
             BUILD_DIR="./.vitepress/dist"
+          elif [ -d "./dist" ]; then
+            BUILD_DIR="./dist"
           else
             echo "错误：未找到构建输出目录（dist 或 .vitepress/dist）"
             exit 1
@@ -132,7 +130,7 @@ jobs:
           # 确保远程目录存在
           ssh -p $REMOTE_PORT ${REMOTE_USER}@${REMOTE_HOST} "mkdir -p ${REMOTE_PATH}"
 
-          # 使用 rsync 同步文件（-a 归档，-v 详细，-z 压缩，--delete 删除远程多余文件）
+          # 使用 rsync 同步文件
           rsync -avz --delete -e "ssh -p $REMOTE_PORT" ${BUILD_DIR}/ ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}
 
           echo "部署完成！"
