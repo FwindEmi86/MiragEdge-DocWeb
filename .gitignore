@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json
 
 # 个人站
 fwindemiko
@@ -10,7 +10,6 @@ fwindemiko
 .vitepress/cache/
 .vitepress/.temp/
 build
-
 
 # Test output
 # test_tool
