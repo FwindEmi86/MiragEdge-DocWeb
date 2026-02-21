@@ -3,12 +3,12 @@
 ## 📖 项目介绍 | Project Introduction
 
 ### 中文介绍
-锐界幻境（MiragEdge）是基于高版本Minecraft（Java 1.21.8）的跨平台互通服务器，支持Java版与基岩版玩家同服游玩。本仓库是服务器官方文档库，涵盖**玩家指南**、**开发协作**、**版本日志**等核心内容，旨在帮助玩家快速上手、开发者高效协作，同时记录服务器的成长历程。
+锐界幻境（MiragEdge）是基于高版本Minecraft（Java 1.21.11）的跨平台互通服务器，支持Java版与基岩版玩家同服游玩。本仓库是服务器官方文档库，涵盖**玩家指南**、**开发协作**、**版本日志**等核心内容，旨在帮助玩家快速上手、开发者高效协作，同时记录服务器的成长历程。
 
 锐界幻境致力于打造一个开放创新的服务器平台，为玩家提供纯净的游戏体验。我们注重技术创新、社区建设和内容创造，努力在数字世界中为每位玩家打造属于自己的幻境。
 
 ### English Introduction
-MiragEdge is a cross-platform互通 Minecraft server based on high-version Minecraft (Java 1.21.8), supporting players from both Java and Bedrock editions to play together on the same server. This repository serves as the official documentation library for the server, covering core content such as **Player Guide**, **Development Collaboration**, and **Version Logs**, aiming to help players get started quickly, enable efficient collaboration for developers, and record the growth journey of the server.
+MiragEdge is a cross-platform互通 Minecraft server based on high-version Minecraft (Java 1.21.11), supporting players from both Java and Bedrock editions to play together on the same server. This repository serves as the official documentation library for the server, covering core content such as **Player Guide**, **Development Collaboration**, and **Version Logs**, aiming to help players get started quickly, enable efficient collaboration for developers, and record the growth journey of the server.
 
 MiragEdge is committed to creating an open and innovative server platform, providing players with a pure gaming experience. We focus on technological innovation, community building, and content creation, striving to create a personal paradise for each player in the digital world.
 
@@ -137,5 +137,5 @@ In the backdrop of the "Ominous Tide" sweeping across, the old order crumbling, 
 本项目由[狐风轩汐](https://space.bilibili.com/359174372)主导维护，感谢所有参与开发、测试与社区建设的朋友！  
 This project is maintained by [F.windEmiko](https://space.bilibili.com/359174372), thank you to all friends who participated in development, testing, and community building!
 
-**文档维护**：F.windEmiko^狐风轩汐
+**文档维护**：F.windEmiko^狐风轩汐  
 **Documentation Maintainer**: F.windEmiko^F.windEmiko

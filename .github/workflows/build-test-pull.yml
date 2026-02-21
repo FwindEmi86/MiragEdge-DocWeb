@@ -125,7 +125,7 @@ jobs:
         with:
           name: built-site-${{ github.run_id }}.tar
           path: "${{ runner.temp }}/build-${{ github.run_id }}.tar.gz"
-          retention-days: 12
+          retention-days: 7
           if-no-files-found: error
 
       # ---------- 部署阶段 ----------
