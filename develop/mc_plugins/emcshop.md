@@ -5,7 +5,7 @@
 EMCShop 是一个为 Minecraft Paper 服务器设计的经济插件，提供物品转换、购买和预览功能。该插件允许玩家将基础物品转换为更有价值的物品，或直接购买解锁的物品。
 
 - 作者：狐风轩汐 & F.windEmiko
-- 项目地址：https://github.com/FwindEmi86/EMCShop
+- 项目地址：https://github.com/fwindemiko/EMCShop
 
 ## 技术栈
 

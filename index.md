@@ -50,7 +50,7 @@ features:
 
 ## 获取支持
 
-- 访问[GitHub仓库](https://github.com/FwindEmi86/MiragEdge-DocWeb)提交问题或贡献代码
+- 访问[GitHub仓库](https://github.com/fwindemiko/MiragEdge-DocWeb)提交问题或贡献代码
 - 加入玩家交流群获取帮助: 523914625
 
 ## 一些话

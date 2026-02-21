@@ -95,12 +95,12 @@ In the backdrop of the "Ominous Tide" sweeping across, the old order crumbling, 
 ---
 
 ## 🤝 贡献与支持 | Contribution & Support
-- **GitHub仓库**：[FwindEmi86/MiragEdge-DocWeb](https://github.com/FwindEmi86/MiragEdge-DocWeb)
+- **GitHub仓库**：[fwindemiko/MiragEdge-DocWeb](https://github.com/fwindemiko/MiragEdge-DocWeb)
 - **提交问题**：访问GitHub仓库提交bug报告或功能建议
 - **开发文档**：查看[开发文档](/develop/index.md)了解插件开发与系统架构
 - **社区支持**：加入QQ群获取实时帮助
 
-- **GitHub Repository**: [FwindEmi86/MiragEdge-DocWeb](https://github.com/FwindEmi86/MiragEdge-DocWeb)
+- **GitHub Repository**: [fwindemiko/MiragEdge-DocWeb](https://github.com/fwindemiko/MiragEdge-DocWeb)
 - **Issue Reports**: Visit GitHub repository to submit bug reports or feature suggestions
 - **Development Docs**: Check [Development Docs](/develop/index.md) for plugin development and system architecture
 - **Community Support**: Join QQ group for real-time assistance

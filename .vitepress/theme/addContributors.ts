@@ -19,7 +19,7 @@ type FullContributorData = {
 };
 
 // 配置
-const owner = 'FwindEmi86'; // 你的GitHub用户名
+const owner = 'fwindemiko'; // 你的GitHub用户名
 const repo = 'MiragEdge-DocWeb'; // 你的仓库名
 
 // 初始化

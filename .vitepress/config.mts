@@ -189,7 +189,7 @@ export default defineConfig({
          },
          { 
            text: '📦 GitHub - 锐界幻境文档', 
-           link: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
+           link: 'https://github.com/fwindemiko/MiragEdge-DocWeb',
            target: '_blank',
            rel: 'noopener noreferrer'
          },
@@ -395,7 +395,7 @@ export default defineConfig({
     //   },
     //   { 
     //     icon: 'github', 
-    //     link: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
+    //     link: 'https://github.com/fwindemiko/MiragEdge-DocWeb',
     //     ariaLabel: '📦 GitHub - 锐界幻境文档'
     //   },
     // ],
@@ -411,7 +411,7 @@ export default defineConfig({
     
     // 编辑链接
     //editLink: {
-    //  pattern: 'https://github.com/FwindEmi86/MiragEdge-DocWeb',
+    //  pattern: 'https://github.com/fwindemiko/MiragEdge-DocWeb',
     //  text: '在 GitHub 上编辑此页'
     //},
     

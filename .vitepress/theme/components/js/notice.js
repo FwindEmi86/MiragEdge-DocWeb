@@ -4,7 +4,7 @@ export function showAestheticNotice() {
   // 配置项
   const NOTICE_KEY = 'hasSeenAestheticNotice_2024_v1'
   const EXPIRY_DATE_STRING = '2025-12-20'
-  const ISSUE_URL = 'https://github.com/FwindEmi86/MiragEdge-DocWeb/issues/new?template=issue_template.yml'
+  const ISSUE_URL = 'https://github.com/fwindemiko/MiragEdge-DocWeb/issues/new?template=issue_template.yml'
 
   try {
     // 检查用户是否已经看过提示

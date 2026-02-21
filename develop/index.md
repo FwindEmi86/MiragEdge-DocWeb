@@ -45,7 +45,7 @@ const coreMembers = [
     title: '服主 | 技术总负责',
     desc: '统筹团队方向、服务端设计、插件开发、贴图UI绘制、文档编撰、硬件和网络系统运维管理等',
     links: [
-      { icon: 'github', link: 'https://github.com/FwindEmi86' },
+      { icon: 'github', link: 'https://github.com/fwindemiko' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/359174372' },
       { icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=2011857087&site=qq&menu=yes' }
     ],
@@ -241,8 +241,8 @@ const givemoney = [
   </VPTeamPageSection>
 </VPTeamPage>
 
-<a href="https://openomy.com/FwindEmi86/MiragEdge-DocWeb" target="_blank" style="display: block; width: 100%;" align="center">
-  <img src="https://openomy.com/svg?repo=FwindEmi86/MiragEdge-DocWeb&chart=bubble&latestMonth=1" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+<a href="https://openomy.com/fwindemiko/MiragEdge-DocWeb" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=fwindemiko/MiragEdge-DocWeb&chart=bubble&latestMonth=1" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
 </a>
 
 **以上名单，排名不分前后**  
