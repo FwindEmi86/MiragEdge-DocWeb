@@ -71,7 +71,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-results-${{ github.run_id }}
+          name: test-results-${{ github.run_id }}.tar
           path: "${{ env.TEST_OUTPUT_DIR }}/test/"
           retention-days: 7
 
@@ -123,7 +123,7 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
         uses: actions/upload-artifact@v4
         with:
-          name: built-site-${{ github.run_id }}
+          name: built-site-${{ github.run_id }}.tar
           path: "${{ runner.temp }}/build-${{ github.run_id }}.tar.gz"
           retention-days: 12
           if-no-files-found: error
