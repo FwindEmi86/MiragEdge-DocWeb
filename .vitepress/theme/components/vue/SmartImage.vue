@@ -94,7 +94,7 @@ export default {
       type: Boolean,
       default: false
     },
-    // 新增：控制是否启用懒加载，默认 false（立即加载）
+    // 新增：控制是否启用懒加载，默认 false（禁用懒加载，提高兼容性）
     lazy: {
       type: Boolean,
       default: false

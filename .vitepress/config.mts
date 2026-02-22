@@ -24,10 +24,10 @@ export default defineConfig({
   
   // 头部配置
   head: [
-    ['link', { rel: 'icon', href: '/title_img/dis.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/title_img/LOGO-32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/title_img/LOGO-16.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/title_img/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', href: '/title_img/xingjiu.jpg' }],
+    ['link', { rel: 'icon', type: 'image/jpeg', sizes: '32x32', href: '/title_img/xingjiu.jpg' }],
+    ['link', { rel: 'icon', type: 'image/jpeg', sizes: '16x16', href: '/title_img/xingjiu.jpg' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/title_img/xingjiu.jpg' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }],
@@ -65,11 +65,11 @@ export default defineConfig({
       addContributorsPlugin(),
     ],
     optimizeDeps: {
-      include: ['mermaid'],
+      include: ['mermaid', 'vue'],
       exclude: ['mark.js'] // 排除 mark.js
     },
     ssr: {
-      noExternal: ['mermaid'],
+      noExternal: ['mermaid', /^vitepress/], // 保持 VitePress 相关包不被外部化
       external: ['mark.js'] // 外部化 mark.js
     },
     // 构建优化
@@ -103,7 +103,11 @@ export default defineConfig({
     },
     server: {
       fs: {
-        allow: ['..'] // 允许访问父目录
+        allow: ['..', '.'] // 允许访问父目录和当前目录
+      },
+      // 添加热重载配置，解决模块加载问题
+      hmr: {
+        overlay: true // 显示错误覆盖层
       }
     }
   },

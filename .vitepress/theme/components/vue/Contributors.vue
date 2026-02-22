@@ -17,7 +17,7 @@
               :src="person.avatar"
               :alt="person.username"
               class="avatar-image"
-              loading="lazy"
+              loading="eager"
               @error="handleAvatarError"
             />
           </div>
