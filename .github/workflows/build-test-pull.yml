@@ -39,6 +39,9 @@ jobs:
           echo "测试目录创建成功"
 
       - name: 构建网页项目
+        env:
+          GH_TOKEN: ${{ secrets.GH_showContributors_token }}
+          GITHUB_TOKEN: ${{ secrets.GH_showContributors_token }} # 访问私有仓库令牌，获取贡献者信息
         run: npm run build
 
       - name: 运行测试并输出报告
