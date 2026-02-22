@@ -31,7 +31,7 @@ import Contributors from './components/vue/Contributors.vue'
 import { init3DTiltEffect } from './components/js/feature.js'
 
 // 导入自定义通知脚本
-import { showAestheticNotice } from './components/js/notice.js'
+import { showAestheticNotice, showConsoleLogo } from './components/js/notice.js'
 
 export default {
   extends: DefaultTheme,
@@ -65,6 +65,9 @@ export default {
         
         // 初始化3D倾斜效果
         init3DTiltEffect();
+        
+        // 在控制台输出 F.windEmiko 文字图像
+        showConsoleLogo();
       }
     });
   }

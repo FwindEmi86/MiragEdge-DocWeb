@@ -1,5 +1,23 @@
 // 网站美学更新提示脚本
 
+// 输出 F.windEmiko 文字图像到控制台
+export function showConsoleLogo() {
+  if (typeof window !== 'undefined' && window.console) {
+    const logo = `
+      ███████╗
+      ██╔════╝
+      █████╗
+      ██╔══╝
+      ██║
+      ╚═╝
+    `;
+    
+    console.log(`%c${logo}`, 'color: #3c8772; font-family: monospace; font-size: 8px;');
+    console.log('%c欢迎访问 MiragEdge 文档站！', 'color: #3c8772; font-weight: bold; font-size: 16px;');
+    console.log('%c感谢您对 MiragEdge 项目的关注与支持！', 'color: #555; font-size: 12px;');
+  }
+}
+
 export function showAestheticNotice() {
   // 配置项
   const NOTICE_KEY = 'hasSeenAestheticNotice_2024_v1'
