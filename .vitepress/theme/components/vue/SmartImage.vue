@@ -36,6 +36,7 @@
         :alt="alt || 'Image'"
         :style="imageStyle"
         :class="{ 'loaded': loaded }"
+        :loading="loadingAttr"          <!-- 动态绑定 loading 属性 -->
         @load="onImageLoad"
         @error="onImageError"
       />
@@ -92,6 +93,11 @@ export default {
     showInfo: {
       type: Boolean,
       default: false
+    },
+    // 新增：控制是否启用懒加载，默认 false（立即加载）
+    lazy: {
+      type: Boolean,
+      default: false
     }
   },
 
@@ -108,6 +114,11 @@ export default {
   },
 
   computed: {
+    // 新增：根据 lazy prop 返回 loading 属性的值
+    loadingAttr() {
+      return this.lazy ? 'lazy' : 'eager';
+    },
+
     containerClasses() {
       return {
         'has-caption': this.caption,
@@ -188,6 +199,20 @@ export default {
     }
   },
 
+  // 新增 mounted 钩子，处理图片已缓存或加载完成的情况
+  mounted() {
+    const img = this.$refs.imageRef;
+    if (img && img.complete) {
+      if (img.naturalWidth) {
+        // 图片成功加载，手动触发 onImageLoad
+        this.onImageLoad({ target: img });
+      } else {
+        // 图片加载失败（naturalWidth 为 0）
+        this.onImageError();
+      }
+    }
+  },
+
   methods: {
     onImageLoad(event) {
       this.loaded = true
@@ -209,7 +234,7 @@ export default {
 </script>
 
 <style scoped>
-/* 样式保持不变 */
+/* 样式保持不变，完全沿用原有样式 */
 .smart-image-container {
   margin: 1.5rem 0;
   text-align: center;
