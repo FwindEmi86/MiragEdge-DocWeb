@@ -1,0 +1,21 @@
+{
+  "name": "MiragEdge Documentation",
+  "short_name": "MiragEdge Docs",
+  "description": "全方位的指南",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3c8772",
+  "icons": [
+    {
+      "src": "/title_img/B-LOGO.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/title_img/B-LOGO.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

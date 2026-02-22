@@ -28,7 +28,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/title_img/LOGO-32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/title_img/LOGO-16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/title_img/apple-touch-icon.png' }],
-    ['link', { rel: 'manifest', href: '/title_img/site.webmanifest' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }],
     ['meta', { name: 'keywords', content: 'MiragEdge, 锐界幻境, Minecraft, 我的世界, 服务器, 文档, 玩家手册, 狐风轩汐, FwindEmi, F.windEmiko' }],
