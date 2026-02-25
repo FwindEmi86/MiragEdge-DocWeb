@@ -2,6 +2,29 @@
 
 部分为闭源插件，会无法访问仓库
 
+## FE_RefreshPapi
+### 基础信息: 
+- 作者：F.windEmiko (狐风轩汐)
+- 代码仓库：https://github.com/fwindemiko/FE_RefreshPapi
+### 功能：
+- 锐界幻境服务器的自定义占位符变量系统
+
+## FE_HelloBro
+### 基础信息: 
+- 作者：F.windEmiko (狐风轩汐)
+- 代码仓库：https://github.com/fwindemiko/FE_HelloBro
+### 功能：
+- 锐界幻境服务器的自定义加入退出消息插件
+- 支持权限控制有权重的特殊身份消息
+
+## FE_PassPlus
+### 基础信息: 
+- 作者：F.windEmiko (狐风轩汐)
+- 代码仓库：https://github.com/fwindemiko/FE_PassPlus
+### 功能：
+- 锐界幻境服务器基于权限检查以执行指令的奖励系统（月卡系统）
+- Papi占位符支持，同类分组，权重检查，发送特定消息
+
 ## FE_NoWeaponFlight
 ### 基础信息: 
 - 作者：F.windEmiko (狐风轩汐)
@@ -34,11 +57,3 @@
 - 锐界幻境服务器的“自生”附魔修复补丁
 - 监听到物品带有特定附魔注册id时启用该附魔相关能力
 - 不同附魔等级，每特定秒数花费特定经验值恢复特定耐久度
-
-## FE_PassPlus
-### 基础信息: 
-- 作者：F.windEmiko (狐风轩汐)
-- 代码仓库：https://github.com/fwindemiko/FE_PassPlus
-### 功能：
-- 锐界幻境服务器基于权限检查以执行指令的奖励系统（月卡系统）
-- Papi占位符支持，同类分组，权重检查，发送特定消息
