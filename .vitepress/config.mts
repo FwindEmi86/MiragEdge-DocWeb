@@ -291,6 +291,14 @@ export default defineConfig({
         {
           items: [
             {
+              text: '⚡️ 生电与特性',
+              link: '/manual/redstone_mechanism'
+            },
+          ]
+        },
+        {
+          items: [
+            {
               text: '🌏 世界观故事',
               link: '/manual/other/worldview'
             },

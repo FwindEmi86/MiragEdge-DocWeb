@@ -28,6 +28,14 @@
 
 > ⚠ 注意：语音聊天为加密传输，但模组作者不保证绝对安全性，使用该功能请自行承担风险！
 
+## 苹果皮([Appleskin](https://modrinth.com/mod/appleskin  "Appleskin"))
+
+[Modrinth下载页](https://modrinth.com/mod/appleskin?version=1.21.11#download "modrepo")(选择你需要的版本)
+
+> ✔ 便捷安装：直接在 PCL2 中搜索「Appleskin」即可一键安装
+
+各种与食物相关的HUD改进，通过服务端侧支持，显示准确的饱食度/饱和度  
+
 ## 音乐点播姬([AllMusic](https://www.mcmod.cn/class/14959.html "AllMusic"))
 <SmartImage 
   src="/images/msreg/allmusic.jpg" 
@@ -72,6 +80,14 @@
 - `/music hud [位置] reset` - 重置指定界面
 - `/music hud enable` - 启用/关闭所有界面
 - `/music hud reset` - 重置所有界面
+
+## Xaero的小地图([Xaero's Minimap](https://modrinth.com/mod/xaeros-world-map  "Xaero's Minimap"))
+
+[Modrinth下载页](https://modrinth.com/mod/xaeros-world-map?version=1.21.11#download "modrepo")(选择你需要的版本)
+
+> ✔ 便捷安装：直接在 PCL2 中搜索「Xaero's Minimap」即可一键安装
+
+限制公平模式 —— 无雷达，无洞穴模式  
 
 ## 连锁采集([VeinMiner](https://www.mcmod.cn/class/589.html "VeinMiner"))
 <SmartImage 
