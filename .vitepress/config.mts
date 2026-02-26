@@ -212,6 +212,7 @@ export default defineConfig({
             { text: '💰 经济系统', link: '/features/base/economy' },
             { text: '🏠 玩家工会', link: '/features/base/playerguild' },
             { text: '🎡 幻域领地', link: '/features/base/dom' },
+            { text: '🦄 独特功能', link: '/features/base/function' },
           ]
         },
         {
@@ -277,13 +278,13 @@ export default defineConfig({
             { text: '💾 白名单系统', link: '/manual/tutorial/whitelist' },
             { text: '🔗 入服方法', link: '/manual/tutorial/serverjoin' },
             { text: '📱 手机必看', link: '/manual/tutorial/bedrock' },
-            { text: '🎮 语音频道', link: '/manual/tutorial/voicechannel' },
           ]
         },
         {
           text: '🔧 附属功能教程',
           collapsed: false,
           items: [
+            { text: '🎮 语音频道', link: '/manual/function/voicechannel' },
             { text: '🐧 群服互通机器人', link: '/manual/function/qqbot' },
             { text: '🐶 MOD拓展功能支持', link: '/manual/function/mod' },
           ]
@@ -291,6 +292,7 @@ export default defineConfig({
         {
           items: [
             { text: '⚡️ 生电与特性', link: '/manual/redstone_mechanism' },
+            { text: '📺 宣传推广', link: '/manual/promotion' },
           ]
         },
         {

@@ -106,7 +106,7 @@ const fetchServerStatus = async () => {
   try {
     const response = await fetch('/ServerStatus/json/stats.json');
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`查询错误: ${response.status}`);
     }
     const data: StatsData = await response.json();
     servers.value = data.servers || [];

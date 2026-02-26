@@ -6,7 +6,7 @@
   src="/avatars/QQ的星玖.png" 
   alt="狐魇星玖"
   caption="狐魇星玖"
-  maxWidth="350px"
+  maxWidth="180px"
 />
 
 ## 聊天对话
@@ -18,33 +18,39 @@
   src="/images/msreg/hutongxiaoxi.png" 
   alt="消息互通"
   caption="消息互通"
-  maxWidth="400px"
+  maxWidth="300px"
 />
 
-## 查看个人服内统计信息
-- 发送 `个人信息` `个人`
-- 可查看在线时间，货币数量等信息
+## 查看群内提示词帮助菜单
+- 发送 `菜单`
 
-## 玩家在线列表
-- 发送 `在线` `list` 查看
+<SmartImage 
+  src="https://cloud.miragedge.top/d/localhost/Picture/web_image/msreg/function/%E5%B8%AE%E5%8A%A9%E8%8F%9C%E5%8D%95.png?sign=On3tI4xsX2fUzQeKjvMubBsECevMaCBUaESAGSNKYPY=:0" 
+  alt="帮助菜单"
+  caption="帮助菜单"
+  maxWidth="350px"
+/>
+
+## 图片展示
+
+<SmartImage 
+  src="https://cloud.miragedge.top/d/localhost/Picture/web_image/msreg/function/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png?sign=3DV7wDaj8yFFofckzRFl3w85LnptnBzi0kaeVRXm_ls=:0" 
+  alt="个人信息"
+  caption="个人信息"
+  maxWidth="350px"
+/>
+
 <SmartImage 
   src="/images/msreg/playerlist.png" 
   alt="玩家在线列表"
   caption="玩家在线列表"
-  maxWidth="400px"
+  maxWidth="350px"
 />
-
-## 榜单数据查询
-
-### 在线时间排行
-- 发送 `在线榜`
-### 灵叶货币排行
-- 发送 `财富榜`
 
 <SmartImage 
   src="/images/msreg/caifubang.png" 
   alt="财富榜"
   caption="财富榜"
-  maxWidth="400px"
+  maxWidth="350px"
 />
 
