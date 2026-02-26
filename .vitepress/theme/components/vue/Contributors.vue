@@ -1,7 +1,7 @@
 <template>
   <div v-if="showContributors && contributorList.length" class="contributors-container">
     <div class="contributors-section">
-      <h3 class="section-title">本页面贡献者 📝</h3>
+      <h3 class="section-title">本页面贡献者</h3>
       <div class="contributors-grid">
         <a
           v-for="person in contributorList"
@@ -138,17 +138,27 @@ const contributorList = computed<Contributor[]>(() => {
 
 .section-title {
   font-size: 1.2rem;
+  padding-left: auto;
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   gap: 0.5rem;
 }
 
 .section-title::before {
-  content: "👤";
+  content: "📝";
   font-size: 1.2rem;
+  margin-right: auto;
+}
+
+.section-title::after {
+  content: "📝";
+  font-size: 1.2rem;
+  margin-left: auto;
 }
 
 .contributors-grid {
