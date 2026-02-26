@@ -1,12 +1,13 @@
 # 🔗 入服方法&链接
 
+> 💡Tips
+> 还不会安装客户端？[前往查看客户端安装教程（下载安装游戏）](https://miragedge.top/manual/tutorial/clientinstall.html)
+
 **最新地址与端口**  
 请前往【[**锐界幻境QQ交流群**](https://qm.qq.com/q/7oYTVQeBtS/)】群公告查看最新地址
 
 ## 账号绑定
   - 为了安全，首次进入服务器时需要将游戏账号绑定QQ，[**不会绑定？点我查看**](https://miragedge.top/manual/tutorial/whitelist)  
-
----
 
 ## ▍ Java版入服流程
 
@@ -27,8 +28,6 @@
 4. 双击服务器列表完成连接
 5. 提示需要加载资源包，请同意，否则影响正常游玩
 
----
-
 ## ▍ 基岩版入服方法
 
 ### 1. 前提条件
@@ -47,6 +46,3 @@
 <SmartImage src="/images/BEJoin.png" alt="连接信息" maxWidth="400px" />
 
 4. 保存后即可加入游戏
-
----
-
