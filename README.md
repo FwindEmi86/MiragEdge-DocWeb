@@ -57,14 +57,14 @@ MiragEdge is committed to creating an open and innovative server platform, provi
 - **新手引导**：客户端安装、入服教程、基础玩法（[查看](/features/index.md)）
 - **核心玩法**：装备升级、高级附魔、食物系统、工作系统（[查看](/features/mmo/info.md)）
 - **开发协作**：内容设计流程、团队协作规范（[查看](/develop/index.md)）
-- **版本日志**：游戏更新（功能优化/BUG修复）与网站迭代（界面/内容更新）（[查看](/develop/logs/index.md)）
+- **版本日志**：游戏更新（功能优化/BUG修复）与网站迭代（界面/内容更新）（[查看](/develop/logs.md)）
 - **规则说明**：玩家守则、交流群规范（[查看](/manual/eula.md)）
 
 Documentation is categorized by functional modules, mainly including:
 - **Beginner Guide**: Client installation, server access tutorial, basic gameplay ([View](/features/index.md))
 - **Core Gameplay**: Equipment upgrades, advanced enchantments, food system, job system ([View](/features/mmo/info.md))
 - **Development Collaboration**: Content design process, team collaboration standards ([View](/develop/index.md))
-- **Version Logs**: Game updates (function optimization/BUG fixes) and website iterations (interface/content updates) ([View](/develop/logs/index.md))
+- **Version Logs**: Game updates (function optimization/BUG fixes) and website iterations (interface/content updates) ([View](/develop/logs.md))
 - **Rule Description**: Player guidelines, community norms ([View](/manual/eula.md))
 
 ---
